@@ -1,0 +1,16 @@
+filename = 'thermal_dynamics-1.18.2-9.2.2.19.jar'
+name = 'Thermal Dynamics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4a69c4ea6482a0f3307beea6d98521831cd09e5ffe4cc13640a6c12dc3e7d27986b4f0d2633efd3fea94b472235e7eb4b3cb05341b44229ace95318366f25563'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t8bmWGI2/versions/cYQgeGkz/thermal_dynamics-1.18.2-9.2.2.19.jar'
+
+[update.modrinth]
+mod-id = 't8bmWGI2'
+version = 'cYQgeGkz'

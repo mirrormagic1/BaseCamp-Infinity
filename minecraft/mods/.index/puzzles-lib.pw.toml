@@ -1,0 +1,16 @@
+filename = 'PuzzlesLib-v3.5.10-1.18.2-Forge.jar'
+name = 'Puzzles Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4664b4b7655838e0887ef444a1683f3e1c3dcb4afa9ebe308d43270d1137f994fbf8be8c66609dbea174e6a67c87fdd3968979f000a49f47317b8da515abd424'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QAGBst4M/versions/IIordDD2/PuzzlesLib-v3.5.10-1.18.2-Forge.jar'
+
+[update.modrinth]
+mod-id = 'QAGBst4M'
+version = 'IIordDD2'

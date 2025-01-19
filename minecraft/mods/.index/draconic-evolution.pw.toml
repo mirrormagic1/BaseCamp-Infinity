@@ -1,0 +1,16 @@
+filename = 'Draconic-Evolution-1.18.2-3.0.31.531-universal.jar'
+name = 'Draconic Evolution'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'd3ce8067af1eee5686c9aebbe7eb36dedecb42b1ff10a21aed85da9fdbffe1e5b63c9e62e1b787e674b000676e9bb1ffd3c722fd473902e407a5b41a9620f00b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nBqivi8H/versions/ASrbjsih/Draconic-Evolution-1.18.2-3.0.31.531-universal.jar'
+
+[update.modrinth]
+mod-id = 'nBqivi8H'
+version = 'ASrbjsih'

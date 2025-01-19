@@ -1,0 +1,16 @@
+filename = 'thermal_cultivation-1.18.2-9.2.1.20.jar'
+name = 'Thermal Cultivation'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '486d09aeee46ee0637d21bed130d88703674bfb7be5ded4d9be82b9823cc59cf4b86ce999a73d2f36d95d8cd1ebe4f658c0b6ec4dd3a52c39d8b1ff27bd80bcf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5beJoehw/versions/dAuzFYiW/thermal_cultivation-1.18.2-9.2.1.20.jar'
+
+[update.modrinth]
+mod-id = '5beJoehw'
+version = 'dAuzFYiW'

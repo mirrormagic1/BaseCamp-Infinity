@@ -233,6 +233,10 @@
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Brewer Mapper. Required Mods: [thermal]
 		enabled = true
 
+	[CraftingMapper.DraconicEvolutionFusionMapper]
+		#ProjectE-Integration Recipe Mapper for Draconic Evolution Fusion Mapper. Required Mods: [draconicevolution]
+		enabled = true
+
 [enabledMappers]
 	#Set EMC=0 for everything in the forge:raw_materials tag
 	RawOresBlacklistMapper = true
