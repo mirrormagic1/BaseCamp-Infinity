@@ -1,0 +1,16 @@
+filename = 'industrial-foregoing-1.18.2-3.3.1.7-11.jar'
+name = 'Industrial Foregoing'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b84066e80fa976290e32676c322a46e6a8e91e4f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5334842
+project-id = 266515

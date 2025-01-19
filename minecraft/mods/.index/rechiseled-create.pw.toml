@@ -1,0 +1,16 @@
+filename = 'rechiseledcreate-1.0.2-forge-mc1.18.jar'
+name = 'Rechiseled: Create'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '68fd5026fa12e8e14f6a872d3edf0e9db84d9c2b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5093207
+project-id = 888624

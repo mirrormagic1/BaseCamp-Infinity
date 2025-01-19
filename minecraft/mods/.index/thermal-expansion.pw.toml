@@ -1,0 +1,16 @@
+filename = 'thermal_expansion-1.18.2-9.2.2.24.jar'
+name = 'Thermal Expansion'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0ddd54a7c85ac6bda3d5e0cd09cb0c2df7e5eed8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4782927
+project-id = 69163

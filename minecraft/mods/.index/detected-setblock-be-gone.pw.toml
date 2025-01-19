@@ -1,0 +1,16 @@
+filename = 'dsbg-1.0-1.18.2.jar'
+name = 'Detected setBlock Be Gone'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f31dcb42e94830e0b9876bf742dcc3221a102fab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4911088
+project-id = 942945

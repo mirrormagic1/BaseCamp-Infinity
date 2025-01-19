@@ -1,0 +1,16 @@
+filename = 'copycats-2.1.4+mc.1.18.2-forge.jar'
+name = 'Create: Copycats+'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '60e93c7caa2130448ccc33f8c255f7961d4cf7b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5725824
+project-id = 968398

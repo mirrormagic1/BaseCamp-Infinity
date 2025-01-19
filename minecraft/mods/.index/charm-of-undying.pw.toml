@@ -1,0 +1,16 @@
+filename = 'curioofundying-forge-1.18-5.3.0.0.jar'
+name = 'Charm of Undying (Fabric/Forge/Quilt)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f7add4f447569de769c18536f85f37f5950fb97b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3553486
+project-id = 316873
