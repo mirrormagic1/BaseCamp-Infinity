@@ -1,0 +1,16 @@
+filename = 'jei-1.18.2-forge-10.2.1.1009.jar'
+name = 'Just Enough Items (JEI)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'de14ce262802a0313783e443d40413c3c032acbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5846864
+project-id = 238222

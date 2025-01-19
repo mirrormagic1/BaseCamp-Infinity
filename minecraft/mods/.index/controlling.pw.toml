@@ -1,0 +1,16 @@
+filename = 'Controlling-forge-1.18.2-9.0+23.jar'
+name = 'Controlling'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9f723b4a612ae712cafd9b50e24f38328b12e650'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4555742
+project-id = 250398

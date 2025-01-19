@@ -1,0 +1,16 @@
+filename = 'mcw-windows-2.3.0-mc1.18.2forge.jar'
+name = "Macaw's Windows"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a1c09dcdf33b108d9dc5544c8bb0438988afa247'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5589355
+project-id = 363569

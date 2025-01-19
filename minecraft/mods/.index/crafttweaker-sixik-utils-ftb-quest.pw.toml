@@ -1,0 +1,16 @@
+filename = 'crafttweakerutilsftbquest-0.0.6.jar'
+name = 'CraftTweaker Sixik Utils FTB Quest (Outdated)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b6bc81a0c383d4a79593bd1d581d2d2d424ebb4f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4574439
+project-id = 866295

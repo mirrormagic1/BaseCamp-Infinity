@@ -1,0 +1,16 @@
+filename = 'cloth-config-6.5.133-forge.jar'
+name = 'Cloth Config API (Fabric/Forge/NeoForge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8e57dc117fd0e36df3951ae7f975823bf84f0229'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5729090
+project-id = 348521

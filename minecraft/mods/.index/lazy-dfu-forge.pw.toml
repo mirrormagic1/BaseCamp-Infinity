@@ -1,0 +1,16 @@
+filename = 'lazydfu-1.0-1.18+.jar'
+name = 'Lazy DataFixerUpper(LazyDFU) [FORGE]'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '069f72997244b57b76c96ac86faa37b1838d52de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3544496
+project-id = 460819

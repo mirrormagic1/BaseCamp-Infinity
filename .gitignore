@@ -1,4 +1,7 @@
 
 instance.cfg
-minecraft/logs/latest.log
-minecraft/logs/debug.log
+minecraft/logs/
+minecraft/local/ftbchunks/data/
+minecraft/screenshots/
+minecraft/journeymap/
+minecraft/saves/

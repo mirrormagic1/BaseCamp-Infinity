@@ -1,0 +1,16 @@
+filename = 'projecte-integration-1.18.2-5.6.2.jar'
+name = 'ProjectE Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1514de98843a751f2563184cb2497b54358a3dcf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4750423
+project-id = 313402

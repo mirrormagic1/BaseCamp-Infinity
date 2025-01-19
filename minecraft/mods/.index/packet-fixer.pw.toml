@@ -1,0 +1,16 @@
+filename = 'packetfixer-forge-1.4.3-1.18-to-1.18.2.jar'
+name = 'Packet Fixer'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ef4a81f300f83cac6f38490464e9426c0a8bf877'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5631951
+project-id = 689467

@@ -1,0 +1,16 @@
+filename = 'ftb-chunks-forge-1802.3.19-build.362.jar'
+name = 'FTB Chunks (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c4c074394fb7fb4c42743bcbfdc9d2ecf85c229d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5423717
+project-id = 314906
