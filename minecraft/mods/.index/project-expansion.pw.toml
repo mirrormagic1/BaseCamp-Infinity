@@ -1,0 +1,16 @@
+filename = 'ProjectExpansion-1.18.2-1.1.1.jar'
+name = 'Project Expansion'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1226cf1d26fcde7303b05c6e83dd2644e3faefc068bd18c3a6013a781c4941403279b3dad6b2d686464ca5d3c6111805719e261d3eacf9c9b4c6905ef26c8e57'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/a7yNQPzW/versions/zTquBXG6/ProjectExpansion-1.18.2-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'a7yNQPzW'
+version = 'zTquBXG6'

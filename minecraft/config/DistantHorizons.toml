@@ -22,10 +22,10 @@ _version = 2
 				# 
 				# Lowest Quality: CHUNK
 				# Highest Quality: BLOCK
-				maxHorizontalResolution = "BLOCK"
+				maxHorizontalResolution = "TWO_BLOCKS"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 2048
 				#
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 
@@ -33,19 +33,19 @@ _version = 2
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "MEDIUM"
+				verticalQuality = "HEIGHT_MAP"
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "LOWEST"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
-				transparency = "COMPLETE"
+				transparency = "FAKE"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -69,7 +69,7 @@ _version = 2
 				# FOG_DISABLED: Always draw fast fog on the LODs 
 				# 
 				# Disabling fog will improve GPU performance.
-				drawMode = "FOG_ENABLED"
+				drawMode = "FOG_DISABLED"
 				#
 				# What color should fog use? 
 				# 
@@ -189,7 +189,7 @@ _version = 2
 			[client.advanced.graphics.ssao]
 				#
 				# Enable Screen Space Ambient Occlusion
-				enabled = true
+				enabled = false
 				#
 				# Determines how many points in space are sampled for the occlusion test. 
 				# Higher numbers will improve quality and reduce banding, but will increase GPU load.
@@ -376,7 +376,7 @@ _version = 2
 			# IP_ONLY: Example: "192.168.1.40" 
 			# NAME_IP: Example: "Minecraft Server IP 192.168.1.40" 
 			# NAME_IP_PORT: Example: "Minecraft Server IP 192.168.1.40:25565"NAME_IP_PORT_MC_VERSION: Example: "Minecraft Server IP 192.168.1.40:25565 GameVersion 1.16.5"
-			serverFolderNameMode = "NAME_ONLY"
+			serverFolderNameMode = "IP_ONLY"
 			#
 			# AKA: Multiverse support. 
 			# 
@@ -396,7 +396,7 @@ _version = 2
 			# If multiverse support is needed start with a value of 0.2 
 			# and tweak the sensitivity from there.Lower values mean the matching is less strict.
 			# Higher values mean the matching is more strict.
-			multiverseSimilarityRequiredPercent = "0.0"
+			multiverseSimilarityRequiredPercent = "0.5"
 
 		[client.advanced.lodBuilding]
 			#
@@ -488,7 +488,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfWorldGenerationThreads = 3
+			numberOfWorldGenerationThreads = 4
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -496,7 +496,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForWorldGenerationThreads = "0.5"
+			runTimeRatioForWorldGenerationThreads = "0.75"
 			#
 			# How many threads should be used when reading/writing LOD data to/from disk? 
 			# 
@@ -508,7 +508,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfFileHandlerThreads = 3
+			numberOfFileHandlerThreads = 5
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -516,7 +516,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForFileHandlerThreads = "0.5"
+			runTimeRatioForFileHandlerThreads = "1.0"
 			#
 			# How many threads should be used when applying LOD updates? 
 			# An LOD update is the operation of down-sampling a high detail LOD 
@@ -535,7 +535,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfUpdatePropagatorThreads = 3
+			numberOfUpdatePropagatorThreads = 6
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -543,7 +543,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForUpdatePropagatorThreads = "0.25"
+			runTimeRatioForUpdatePropagatorThreads = "0.5"
 			#
 			# How many threads should be used when building LODs? 
 			# 
@@ -554,7 +554,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfLodBuilderThreads = 3
+			numberOfLodBuilderThreads = 5
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -562,7 +562,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForLodBuilderThreads = "0.25"
+			runTimeRatioForLodBuilderThreads = "0.5"
 			#
 			# Should only be disabled if deadlock occurs and LODs refuse to update. 
 			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
