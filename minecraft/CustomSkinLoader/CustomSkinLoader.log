@@ -1,38 +1,228 @@
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.22
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 10 (amd64) version 10.0
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 17.0.1, Microsoft
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.18.2
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Config File: C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\CustomSkinLoader.json
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.22
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 31
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
-[2025-01-20 09:57:04] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
-[2025-01-20 09:57:04] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Loading Mr_Cat123's profile.
-[2025-01-20 09:57:04] [Mr_Cat123/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
-[2025-01-20 09:57:04] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Default profile will be used.
-[2025-01-20 09:57:04] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Mr_Cat123's profile loaded.
-[2025-01-20 09:57:04] [Mr_Cat123/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/17627d46eb977b2479a5472b27d1a0da2b756591ab74aea4003a22d1427aa7af , Model: default , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1737385054)
+[2025-01-20 20:52:36] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.22
+[2025-01-20 20:52:36] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader
+[2025-01-20 20:52:36] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 10 (amd64) version 10.0
+[2025-01-20 20:52:36] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 17.0.1, Microsoft
+[2025-01-20 20:52:36] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.18.2
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Config File: C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.22
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 31
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2025-01-20 20:52:37] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2025-01-20 20:52:37] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Loading Mr_Cat123's profile.
+[2025-01-20 20:52:37] [Mr_Cat123/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-01-20 20:52:37] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-01-20 20:52:37] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Mr_Cat123's profile loaded.
+[2025-01-20 20:52:37] [Mr_Cat123/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/17627d46eb977b2479a5472b27d1a0da2b756591ab74aea4003a22d1427aa7af , Model: default , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1737424387)
+[2025-01-20 20:57:29] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Loading Mr_Cat123's profile.
+[2025-01-20 20:57:29] [Mr_Cat123/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-01-20 20:57:29] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-01-20 20:57:29] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Mr_Cat123's profile loaded.
+[2025-01-20 20:57:29] [Mr_Cat123/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/17627d46eb977b2479a5472b27d1a0da2b756591ab74aea4003a22d1427aa7af , Model: default , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1737424679)
+[2025-01-20 21:03:44] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Loading Mr_Cat123's profile.
+[2025-01-20 21:03:44] [Mr_Cat123/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-01-20 21:03:44] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-01-20 21:03:44] [Mr_Cat123/INFO] [CustomSkinLoader Core]: Mr_Cat123's profile loaded.
+[2025-01-20 21:03:44] [Mr_Cat123/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/17627d46eb977b2479a5472b27d1a0da2b756591ab74aea4003a22d1427aa7af , Model: default , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1737425054)
+[2025-01-20 21:04:07] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Loading xXtrousasnakeXx's profile.
+[2025-01-20 21:04:07] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-01-20 21:04:07] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-01-20 21:04:07] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-01-20 21:04:07] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/xXtrousasnakeXx.json'.
+[2025-01-20 21:04:09] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2025-01-20 21:04:09] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\e79c3b246ea5da0dc7d483b7ec87e35a7b7b3e33' , Expire: 1737425140)
+[2025-01-20 21:04:09] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-01-20 21:04:09] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:04:09] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2025-01-20 21:04:09] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/xXtrousasnakeXx.json'.
+[2025-01-20 21:04:09] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:04:09] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:04:09] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2025-01-20 21:04:09] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/xXtrousasnakeXx'.
+[2025-01-20 21:04:10] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 121)
+[2025-01-20 21:04:10] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\38c91abf6f05ae6f82fcda5e26516fdb5b993b71' , Expire: 1737425143)
+[2025-01-20 21:04:10] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/21b918780853aeafd7499aec321e80e4e7786b6a0d98073c0451af861b7533f2"}}
+[2025-01-20 21:04:10] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2025-01-20 21:04:10] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/xXtrousasnakeXx.json'.
+[2025-01-20 21:04:10] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/xXtrousasnakeXx.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2025-01-20 21:04:10] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:04:10] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2025-01-20 21:04:10] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/xXtrousasnakeXx'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request https://auth.tlauncher.org/skin/profile/texture/login/xXtrousasnakeXx (Exception: java.net.SocketTimeoutException: Read timed out)
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=xXtrousasnakeXx'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Payload: ["xXtrousasnakeXx"]
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/xXtrousasnakeXx.png'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Payload: ["xXtrousasnakeXx"]
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 81)
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: [ {
+  "id" : "f65747604de044739526d118edf7f709",
+  "name" : "xXtrousasnakeXx"
+} ]
+[2025-01-20 21:04:21] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2025-01-20 21:04:21] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"f6574760-4de0-4473-9526-d118edf7f709"}
+[2025-01-20 21:04:22] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:04:22] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:04:22] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2025-01-20 21:04:22] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/xXtrousasnakeXx.png'.
+[2025-01-20 21:04:22] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:04:22] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:04:22] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2025-01-20 21:04:22] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/f6574760-4de0-4473-9526-d118edf7f709'.
+[2025-01-20 21:04:23] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 69159)
+[2025-01-20 21:04:23] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 69159 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\7ce49b161e391f999ad84d60c00710118923e61c' , Expire: 1737511463)
+[2025-01-20 21:04:23] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: xXtrousasnakeXx's profile loaded.
+[2025-01-20 21:04:23] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/21b918780853aeafd7499aec321e80e4e7786b6a0d98073c0451af861b7533f2 , Model: default , CapeUrl: (LEGACY)https://dl.labymod.net/capes/f6574760-4de0-4473-9526-d118edf7f709  , Expiry: 1737425093)
+[2025-01-20 21:24:55] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Loading xXtrousasnakeXx's profile.
+[2025-01-20 21:24:55] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-01-20 21:24:55] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-01-20 21:24:55] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-01-20 21:24:55] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/xXtrousasnakeXx.json'.
+[2025-01-20 21:24:56] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2025-01-20 21:24:56] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\e79c3b246ea5da0dc7d483b7ec87e35a7b7b3e33' , Expire: 1737426389)
+[2025-01-20 21:24:56] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-01-20 21:24:56] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:24:56] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2025-01-20 21:24:56] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/xXtrousasnakeXx.json'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/xXtrousasnakeXx'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 121)
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\38c91abf6f05ae6f82fcda5e26516fdb5b993b71' , Expire: 1737426392)
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/21b918780853aeafd7499aec321e80e4e7786b6a0d98073c0451af861b7533f2"}}
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/xXtrousasnakeXx.json'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/xXtrousasnakeXx.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/xXtrousasnakeXx'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\8460d8824da06aee4fdbc000d284bcc56a055e19' , Expire: 1737426388)
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2025-01-20 21:24:57] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=xXtrousasnakeXx'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/f65747604de044739526d118edf7f709'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 96 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\cf3d84abf05118fe14c7079cd97df46fa6499b0e' , Expire: 1740104698)
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"textures":{"cape":null,"ears":null}}
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/xXtrousasnakeXx.png'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2025-01-20 21:24:58] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"f6574760-4de0-4473-9526-d118edf7f709"}
+[2025-01-20 21:24:59] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:24:59] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/xXtrousasnakeXx.png'.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:24:59] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/f6574760-4de0-4473-9526-d118edf7f709'.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 69159 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\7ce49b161e391f999ad84d60c00710118923e61c' , Expire: 1737511463)
+[2025-01-20 21:24:59] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: xXtrousasnakeXx's profile loaded.
+[2025-01-20 21:24:59] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/21b918780853aeafd7499aec321e80e4e7786b6a0d98073c0451af861b7533f2 , Model: default , CapeUrl: (LEGACY)https://dl.labymod.net/capes/f6574760-4de0-4473-9526-d118edf7f709  , Expiry: 1737426329)
+[2025-01-20 21:33:28] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Loading xXtrousasnakeXx's profile.
+[2025-01-20 21:33:28] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-01-20 21:33:28] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-01-20 21:33:28] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-01-20 21:33:28] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/xXtrousasnakeXx.json'.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\e79c3b246ea5da0dc7d483b7ec87e35a7b7b3e33' , Expire: 1737426901)
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-01-20 21:33:29] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/xXtrousasnakeXx.json'.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:33:29] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/xXtrousasnakeXx'.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 121)
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\38c91abf6f05ae6f82fcda5e26516fdb5b993b71' , Expire: 1737426902)
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/21b918780853aeafd7499aec321e80e4e7786b6a0d98073c0451af861b7533f2"}}
+[2025-01-20 21:33:29] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2025-01-20 21:33:29] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/xXtrousasnakeXx.json'.
+[2025-01-20 21:33:30] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/xXtrousasnakeXx.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2025-01-20 21:33:30] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:33:30] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2025-01-20 21:33:30] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/xXtrousasnakeXx'.
+[2025-01-20 21:33:30] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2025-01-20 21:33:30] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\8460d8824da06aee4fdbc000d284bcc56a055e19' , Expire: 1737426905)
+[2025-01-20 21:33:30] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-01-20 21:33:30] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:33:30] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2025-01-20 21:33:30] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=xXtrousasnakeXx'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/f65747604de044739526d118edf7f709'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 96 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\cf3d84abf05118fe14c7079cd97df46fa6499b0e' , Expire: 1740104698)
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\cf3d84abf05118fe14c7079cd97df46fa6499b0e'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"textures":{"cape":null,"ears":null}}
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/xXtrousasnakeXx.png'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2025-01-20 21:33:31] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"f6574760-4de0-4473-9526-d118edf7f709"}
+[2025-01-20 21:33:32] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:33:32] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/xXtrousasnakeXx.png'.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-01-20 21:33:32] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/f6574760-4de0-4473-9526-d118edf7f709'.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 69159 , Path: 'C:\Users\ryanc\AppData\Roaming\PrismLauncher\instances\BaseCamp-Infinity\minecraft\CustomSkinLoader\caches\7ce49b161e391f999ad84d60c00710118923e61c' , Expire: 1737511463)
+[2025-01-20 21:33:32] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: xXtrousasnakeXx's profile loaded.
+[2025-01-20 21:33:32] [xXtrousasnakeXx/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/21b918780853aeafd7499aec321e80e4e7786b6a0d98073c0451af861b7533f2 , Model: default , CapeUrl: (LEGACY)https://dl.labymod.net/capes/f6574760-4de0-4473-9526-d118edf7f709  , Expiry: 1737426842)

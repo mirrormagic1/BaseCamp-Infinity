@@ -69,7 +69,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -196,6 +196,9 @@ key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
 key_key.beyond_earth.rocket_start:key.keyboard.space
 key_key.beyond_earth.switch_jet_suit_mode:key.keyboard.v
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_create.keyinfo.ponder:key.keyboard.w
 key_key.draconicevolution.place_item:key.keyboard.p
 key_key.draconicevolution.tool_config:key.keyboard.c
 key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
@@ -206,9 +209,6 @@ key_key.draconicevolution.dislocator_blink:key.keyboard.unknown
 key_key.draconicevolution.dislocator_gui:key.keyboard.unknown
 key_key.draconicevolution.dislocator_up:key.keyboard.unknown
 key_key.draconicevolution.dislocator_down:key.keyboard.unknown
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_create.keyinfo.ponder:key.keyboard.w
 key_key.projecte.helmet_toggle:key.keyboard.x:SHIFT
 key_key.projecte.boots_toggle:key.keyboard.x
 key_key.projecte.charge:key.keyboard.v
@@ -218,7 +218,7 @@ key_key.projecte.mode:key.keyboard.g
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

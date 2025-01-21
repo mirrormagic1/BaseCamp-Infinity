@@ -1,0 +1,16 @@
+filename = 'fusion-1.2.3-forge-mc1.18.jar'
+name = 'Fusion (Connected Textures)'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7f5d9e6e9ba87b7f029ab22093be757f34e10155feba5b1ec5a1cade3dee914dc9c4af96d96b2f53100d42b6e8aed286e6ce8e08c4ed2239701bf8e0c7461a32'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/p19vrgc2/versions/LOt8ULkC/fusion-1.2.3-forge-mc1.18.jar'
+
+[update.modrinth]
+mod-id = 'p19vrgc2'
+version = 'LOt8ULkC'
