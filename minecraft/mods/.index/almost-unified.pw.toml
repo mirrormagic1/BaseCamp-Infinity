@@ -1,0 +1,16 @@
+filename = 'almostunified-forge-1.18.2-0.3.10.jar'
+name = 'Almost Unified'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b2e52ea40aeed302827c686920a461ab55f2eaa4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4522184
+project-id = 633823

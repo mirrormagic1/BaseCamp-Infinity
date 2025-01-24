@@ -25,6 +25,11 @@ _version = 2
 				maxHorizontalResolution = "TWO_BLOCKS"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
+				# On server changes the distance players will receive real time updates for, if enabled.
+				# Note for servers:
+				# This setting does not prevent players from generating farther out.
+				# If you want to limit performance impact, change rate/concurrency (RC) limits
+				# and thread count/runtime ratio settings instead.
 				lodChunkRenderDistanceRadius = 128
 				#
 				# This indicates how well LODs will represent 
@@ -279,8 +284,7 @@ _version = 2
 				#  does not have a ceiling.
 				enableCaveCulling = true
 				#
-				# At what Y value should cave culling start? 
-				# Lower this value if you get walls for areas with 0 light.
+				# At what Y value should cave culling start?
 				caveCullingHeight = 60
 				#
 				# This is the earth size ratio when applying the curvature shader effect. 
@@ -342,9 +346,6 @@ _version = 2
 			#
 			# Should Distant Horizons slowly generate LODs 
 			#  outside the vanilla render distance?
-			# 
-			#  Note: when on a server, distant generation isn't supported 
-			#  and will always be disabled.
 			enableDistantGeneration = true
 			#
 			# How detailed should LODs be generated outside the vanilla render distance? 
@@ -397,6 +398,56 @@ _version = 2
 			# and tweak the sensitivity from there.Lower values mean the matching is less strict.
 			# Higher values mean the matching is more strict.
 			multiverseSimilarityRequiredPercent = "0.5"
+			#
+			# If true Distant Horizons will attempt to communicate with the connected 
+			# server in order to improve multiverse support.
+			enableMultiverseNetworking = true
+
+			[client.advanced.multiplayer.serverNetworking]
+				#
+				# WARNING!
+				# Server-client networking is not yet fully implemented!
+				# Both the server and client must be running the server-side fork with this option enabled
+				# for Distant Horizons data to be transceived.
+				# 
+				# If true, the server and client will attempt to communicate to transceive Distant Horizons data.
+				# This allows for further distant generation and LOD updates on all clients.
+				# 
+				# This should only be used on trusted servers with trusted players!
+				enableServerNetworking = true
+				#
+				# The amount of rate/concurrency limit hits a client can make in one second before being disconnected by the server.
+				# This setting only applies to the server and has no effect on clients.
+				rateLimitHitTolerance = 10
+				#
+				# Makes the server send level keys for each world.
+				# Disable this if you use alternative ways to send level keys.
+				sendLevelKeys = true
+				#
+				# Prefix of the level keys sent to the clients.
+				# Should be set to a unique value for each backend server behind a proxy,
+				# or empty if you don't use a proxy.
+				levelKeyPrefix = ""
+				#
+				# Limits the amount of generation requests the server will handle.
+				generationRequestRCLimit = 20
+				#
+				# Controls the max ratio between distances of nearest unloaded sections of each priority.
+				# For example, value of 2 means that the nearest lower priority section will be allowed to stay
+				# unloaded only if it's at most 2x closer than one of a higher priority.
+				genTaskPriorityDistanceRatio = "3.0"
+				#
+				# Limits the amount of LOD sections the client can request states for per second.
+				genTaskPriorityRequestRateLimit = 50
+				#
+				# If true, the client will receive real-time LOD updates for chunks outside the client's render distance.
+				enableRealTimeUpdates = false
+				#
+				# If true, clients will receive updated LODs on join if any changes occured since last join.
+				enableLoginDataSync = false
+				#
+				# Limits the amount of sent/processed LOD *update* requests concurrently, per player.
+				loginDataSyncRCLimit = 50
 
 		[client.advanced.lodBuilding]
 			#
@@ -473,28 +524,37 @@ _version = 2
 			# if they are in a 0 sky light underground area. 
 			# Note: air is always included in this list.
 			ignoredRenderCaveBlockCsv = "minecraft:glow_lichen,minecraft:rail,minecraft:water,minecraft:lava,minecraft:bubble_column"
+			#
+			# If false LODs will be lit by Minecraft's lighting engine when possible 
+			# and fall back to the DH lighting engine only when necessary. 
+			# 
+			# If true LODs will only be lit using Distant Horizons' lighting engine. 
+			# 
+			# Generally it is best to leave this disabled and should only be enabled 
+			# if there are lighting issues or for debugging.
+			onlyUseDhLightingEngine = false
 
 		[client.advanced.multiThreading]
 			#
-			# How many threads should be used when generating LOD 
-			# chunks outside the normal render distance? 
+			# How many threads should be used when generating LOD
+			# chunks outside the normal render distance?
 			# 
-			# If you experience stuttering when generating distant LODs, 
-			# decrease this number. 
-			# If you want to increase LOD 
-			# generation speed, increase this number. 
+			# If you experience stuttering when generating distant LODs,
+			# decrease this number.
+			# If you want to increase LOD
+			# generation speed, increase this number.
 			# 
-			# Multi-threading Note: 
-			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
-			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# Multi-threading Note:
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores,
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate.
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			numberOfWorldGenerationThreads = 4
 			#
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
+			# If this value is less than 1.0, it will be treated as a percentage
+			# of time each thread can run before going idle.
 			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
+			# This can be used to reduce CPU usage if the thread count
+			# is already set to 1 for the given option, or more finely
 			# tune CPU performance.
 			runTimeRatioForWorldGenerationThreads = "0.75"
 			#
@@ -504,17 +564,17 @@ _version = 2
 			# but may cause lag when loading a new world or when 
 			# quickly flying through existing LODs. 
 			# 
-			# Multi-threading Note: 
-			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
-			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# Multi-threading Note:
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores,
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate.
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			numberOfFileHandlerThreads = 5
 			#
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
+			# If this value is less than 1.0, it will be treated as a percentage
+			# of time each thread can run before going idle.
 			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
+			# This can be used to reduce CPU usage if the thread count
+			# is already set to 1 for the given option, or more finely
 			# tune CPU performance.
 			runTimeRatioForFileHandlerThreads = "1.0"
 			#
@@ -531,17 +591,17 @@ _version = 2
 			# waiting on another thread to finish updating the same LOD it also wants
 			# to work on.
 			# 
-			# Multi-threading Note: 
-			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
-			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# Multi-threading Note:
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores,
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate.
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			numberOfUpdatePropagatorThreads = 6
 			#
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
+			# If this value is less than 1.0, it will be treated as a percentage
+			# of time each thread can run before going idle.
 			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
+			# This can be used to reduce CPU usage if the thread count
+			# is already set to 1 for the given option, or more finely
 			# tune CPU performance.
 			runTimeRatioForUpdatePropagatorThreads = "0.5"
 			#
@@ -550,17 +610,17 @@ _version = 2
 			# These threads run when terrain is generated, when
 			# certain graphics settings are changed, and when moving around the world. 
 			# 
-			# Multi-threading Note: 
-			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
-			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# Multi-threading Note:
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores,
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate.
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			numberOfLodBuilderThreads = 5
 			#
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
+			# If this value is less than 1.0, it will be treated as a percentage
+			# of time each thread can run before going idle.
 			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
+			# This can be used to reduce CPU usage if the thread count
+			# is already set to 1 for the given option, or more finely
 			# tune CPU performance.
 			runTimeRatioForLodBuilderThreads = "0.5"
 			#
@@ -763,4 +823,41 @@ _version = 2
 				listTest = ["option 1", "option 2", "option 3"]
 				mapTest = "{}"
 				linkableTest = 420
+
+		[client.advanced.buffers]
+			#
+			# What method should be used to upload geometry to the GPU? 
+			# 
+			# AUTO: Picks the best option based on the GPU you have. 
+			# 
+			# BUFFER_STORAGE: Default if OpenGL 4.5 is supported. 
+			#     Fast rendering, no stuttering. 
+			# 
+			# SUB_DATA: Backup option for NVIDIA. 
+			#     Fast rendering but may stutter when uploading. 
+			# 
+			# BUFFER_MAPPING: Slow rendering but won't stutter when uploading. 
+			#     Generally the best option for integrated GPUs. 
+			#     Default option for AMD/Intel if OpenGL 4.5 isn't supported. 
+			#     May end up storing buffers in System memory. 
+			#     Fast rendering if in GPU memory, slow if in system memory, 
+			#     but won't stutter when uploading.  
+			# 
+			# DATA: Fast rendering but will stutter when uploading. 
+			#     Backup option for AMD/Intel. 
+			#     Fast rendering but may stutter when uploading. 
+			# 
+			# If you don't see any difference when changing these settings, 
+			# or the world looks corrupted: restart your game.
+			gpuUploadMethod = "AUTO"
+			#
+			# How long should a buffer wait per Megabyte of data uploaded? 
+			# Helpful resource for frame times: https://fpstoms.com 
+			# 
+			# Longer times may reduce stuttering but will make LODs 
+			# transition and load slower. Change this to [0] for no timeout. 
+			# 
+			# NOTE:
+			# Before changing this config, try changing the "GPU Upload method" first.
+			gpuUploadPerMegabyteInMilliseconds = 0
 

@@ -1,0 +1,16 @@
+filename = 'ChickenChunks-1.18.2-2.9.2.95-universal.jar'
+name = 'Chicken Chunks 1.8.+'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fb1fd7245f71cda22fb3cf8733c32e803643511e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3865388
+project-id = 243883

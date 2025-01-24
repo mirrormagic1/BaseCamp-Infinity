@@ -1,0 +1,16 @@
+filename = 'eureka-1.5.1-beta.1.jar'
+name = 'Eureka! Ships! for Valkyrien Skies (Forge/Fabric)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b222e0c80df659ddecbcd8e09fc5086103c24d60'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5321597
+project-id = 654384

@@ -1,0 +1,16 @@
+filename = 'DarkPaintings-Forge-1.18.2-10.0.4.jar'
+name = 'Dark Paintings'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e274ccc1ec1db55a2885e97155564f0d358abede'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4357110
+project-id = 377281

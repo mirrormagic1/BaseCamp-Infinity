@@ -1,0 +1,16 @@
+filename = 'travelersbackpack-forge-1.18.2-7.1.49.jar'
+name = "Traveler's Backpack"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '167fec5f4dc895f1fd1d6f77bf276d534be3f17e782604ed706111eea24b05b4dbbb878e914ad0327e5bf1c29ed9e619aec667603f51b0d973819cfa77c259c5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rlloIFEV/versions/voGeNbOd/travelersbackpack-forge-1.18.2-7.1.49.jar'
+
+[update.modrinth]
+mod-id = 'rlloIFEV'
+version = 'voGeNbOd'

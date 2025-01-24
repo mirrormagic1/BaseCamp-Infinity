@@ -1,0 +1,16 @@
+filename = 'jeiintegration_1.18.2-9.0.0.37.jar'
+name = 'JEI Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '680eb558dd2165d5fc70def67fc854f6cf583b2a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3812175
+project-id = 265917

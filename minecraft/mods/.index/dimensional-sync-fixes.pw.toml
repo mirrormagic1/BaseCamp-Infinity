@@ -1,0 +1,16 @@
+filename = 'dimensionalsycnfixes-1.18.2-0.0.1.jar'
+name = 'Dimensional Sync Fixes'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cba0d3ff506b9b09a5db65cd50af76b0a991de19'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4960328
+project-id = 829521

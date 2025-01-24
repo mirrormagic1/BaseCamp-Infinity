@@ -18,6 +18,13 @@
         }
       ],
       "completedManualQuests": []
+    },
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [
+        "industrialforegoing:tools/infinity_nuke"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }
