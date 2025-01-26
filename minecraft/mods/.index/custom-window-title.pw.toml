@@ -1,0 +1,16 @@
+filename = 'CustomWindowTitle-Forge-1.19+v1.1.1.jar'
+name = 'Custom Window Title'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c3bda1f7a36d388cc0a0718de59ed4e89b1fbd10'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4308121
+project-id = 360673
