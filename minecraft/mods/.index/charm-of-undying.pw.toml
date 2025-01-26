@@ -1,16 +1,16 @@
-filename = 'curioofundying-forge-1.18-5.3.0.0.jar'
-name = 'Charm of Undying (Fabric/Forge/Quilt)'
+filename = 'charmofundying-forge-6.2.1+1.19.2.jar'
+name = 'Charm of Undying'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'f7add4f447569de769c18536f85f37f5950fb97b'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '3fc46c23789abf7bd95be34136235364b032274803c6c2864194768eb6b4bb4298c9ce71eb9aa316b188280be738b541467a2e5bd20e2427f74954acbf50f09f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/b5GyyYkp/versions/cdHZ9sTu/charmofundying-forge-6.2.1%2B1.19.2.jar'
 
-[update.curseforge]
-file-id = 3553486
-project-id = 316873
+[update.modrinth]
+mod-id = 'b5GyyYkp'
+version = 'cdHZ9sTu'

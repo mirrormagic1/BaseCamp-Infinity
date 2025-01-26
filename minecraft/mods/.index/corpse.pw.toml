@@ -1,16 +1,16 @@
-filename = 'corpse-1.18.2-1.0.2.jar'
+filename = 'corpse-forge-1.19.2-1.0.17.jar'
 name = 'Corpse'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
-x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e98234b7ef6756d0388ce995cbd5df1fc8f73dd2'
+hash = '189573225253699a14d334967f30aaba4c3ab002'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3829457
+file-id = 5816905
 project-id = 316582

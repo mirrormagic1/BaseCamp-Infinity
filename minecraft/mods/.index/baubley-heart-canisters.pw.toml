@@ -1,16 +1,16 @@
-filename = 'baubley-heart-canisters-1.18.2-1.0.0.jar'
+filename = 'baubley-heart-canisters-1.19.2-2.1.0.jar'
 name = 'Baubley Heart Canisters'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '03ec11c29fc47644ca6c1db11de98eb3deb4c596'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '47ea833528d0b1aabd72451646058899c33eeae511b37397c9fc76f0c0ef22bbf9674f945e4b23839f74c280f0215d61acd925a78dfa1c90de1ea5297a8d36dd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fPdy2fCM/versions/zcgLCGJK/baubley-heart-canisters-1.19.2-2.1.0.jar'
 
-[update.curseforge]
-file-id = 3772892
-project-id = 282947
+[update.modrinth]
+mod-id = 'fPdy2fCM'
+version = 'zcgLCGJK'

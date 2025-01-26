@@ -1,16 +1,16 @@
-filename = 'StorageDrawers-1.18.2-10.3.0.jar'
+filename = 'StorageDrawers-1.19.2-11.4.1.jar'
 name = 'Storage Drawers'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'cd166b32caf943165a82ac6068403b389e58651d'
+hash = '797afd3e5eba164a0a04807c9c2b72e2267a6846'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5636643
+file-id = 5648923
 project-id = 223852

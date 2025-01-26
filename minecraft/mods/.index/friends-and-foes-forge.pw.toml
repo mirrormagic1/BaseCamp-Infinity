@@ -1,16 +1,16 @@
-filename = 'friendsandfoes-forge-mc1.18.2-1.4.8.jar'
+filename = 'friendsandfoes-forge-mc1.19.2-3.0.7.jar'
 name = 'Friends&Foes (Forge/NeoForge) (Copper Golem,Crab,Glare,Moobloom,Iceologer,Rascal,Tuff Golem,Wildfire,Illusioner)'
 side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'c5257d0aa08890c97c572ef713ec6bd5f96941fa'
+hash = '62206607934cd42860673e3835dd912c1c9d37e1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4754561
+file-id = 6104442
 project-id = 602059

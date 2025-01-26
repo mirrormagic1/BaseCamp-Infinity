@@ -1,0 +1,16 @@
+filename = 'polyeng-forge-0.1.1-1.19.2.jar'
+name = 'Polymorphic Energistics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cffbb0d1b5eeed96167f3578adcdc746d81eedf4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5282391
+project-id = 941096

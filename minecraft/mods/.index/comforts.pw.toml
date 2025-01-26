@@ -1,16 +1,16 @@
-filename = 'comforts-forge-1.18.2-5.0.0.6.jar'
+filename = 'comforts-forge-6.0.7+1.19.2.jar'
 name = 'Comforts (Fabric/Forge/Quilt)'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '738aa237f6b8e82a5b4ad8af9d9e371fbd25eb08'
+hash = 'f056d216add336bdd5a42806df8731e6f08a4f4f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4398246
+file-id = 4977779
 project-id = 276951

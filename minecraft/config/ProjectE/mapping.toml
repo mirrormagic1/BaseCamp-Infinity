@@ -45,12 +45,12 @@
 		#Maps Mekanism metallurgic infuser recipes.
 		enabled = true
 
-	[CraftingMapper.CreateCompactingMapper]
-		#ProjectE-Integration Recipe Mapper for Create Compacting Mapper. Required Mods: [create]
-		enabled = true
-
 	[CraftingMapper.CreateSandpaperPolishingMapper]
 		#ProjectE-Integration Recipe Mapper for Create Sandpaper Polishing Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateCompactingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Compacting Mapper. Required Mods: [create]
 		enabled = true
 
 	[CraftingMapper.FallbackRecipeType]
@@ -63,10 +63,6 @@
 
 	[CraftingMapper.SomtingThermalCentrifugeMapper]
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Centrifuge Mapper. Required Mods: [thermal]
-		enabled = true
-
-	[CraftingMapper.IndustrialForegoingDissolutionChamberMapper]
-		#ProjectE-Integration Recipe Mapper for Industrial Foregoing Dissolution Chamber Mapper. Required Mods: [industrialforegoing]
 		enabled = true
 
 	[CraftingMapper.MekRotary]
@@ -113,24 +109,16 @@
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Pulverizer Mapper. Required Mods: [thermal]
 		enabled = true
 
-	[CraftingMapper.MekItemStackToGas]
-		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
-		enabled = true
-
 	[CraftingMapper.MekPigmentMixer]
 		#Maps Mekanism pigment mixer recipes.
 		enabled = true
 
+	[CraftingMapper.MekItemStackToGas]
+		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
+		enabled = true
+
 	[CraftingMapper.SomtingThermalSawmillMapper]
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Sawmill Mapper. Required Mods: [thermal]
-		enabled = true
-
-	[CraftingMapper.IndustrialForegoingCrusherMapper]
-		#ProjectE-Integration Recipe Mapper for Industrial Foregoing Crusher Mapper. Required Mods: [industrialforegoing]
-		enabled = true
-
-	[CraftingMapper.AvaritiaExtremeCraftingMapper]
-		#ProjectE-Integration Recipe Mapper for Avaritia Extreme Crafting Mapper. Required Mods: [avaritia]
 		enabled = true
 
 	[CraftingMapper.CreateItemApplicationMapper]
@@ -160,10 +148,6 @@
 	[CraftingMapper.MekItemStackToItemStack]
 		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
 		enabled = true
-
-	[CraftingMapper.IndustrialForegoingStoneWorksGenerateMapper]
-		#ProjectE-Integration Recipe Mapper for Industrial Foregoing Stone Works Generate Mapper. Required Mods: [industrialforegoing] NOTE: Disabled by default.
-		enabled = false
 
 	[CraftingMapper.CreateCUTTINGMapper]
 		#ProjectE-Integration Recipe Mapper for Create CUTTINGMapper. Required Mods: [create]
@@ -197,16 +181,12 @@
 		#Maps Mekanism item stack to infuse type conversion recipes.
 		enabled = true
 
-	[CraftingMapper.AvaritiaCompressorMapper]
-		#ProjectE-Integration Recipe Mapper for Avaritia Compressor Mapper. Required Mods: [avaritia]
+	[CraftingMapper.SomtingThermalRefineryMapper]
+		#ProjectE-Integration Recipe Mapper for Somting Thermal Refinery Mapper. Required Mods: [thermal]
 		enabled = true
 
 	[CraftingMapper.AppliedEnergisticsInscriberMapper]
 		#ProjectE-Integration Recipe Mapper for Applied Energistics Inscriber Mapper. Required Mods: [ae2]
-		enabled = true
-
-	[CraftingMapper.SomtingThermalRefineryMapper]
-		#ProjectE-Integration Recipe Mapper for Somting Thermal Refinery Mapper. Required Mods: [thermal]
 		enabled = true
 
 	[CraftingMapper.MekDissolution]
@@ -221,20 +201,16 @@
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Crucible Mapper. Required Mods: [thermal]
 		enabled = true
 
-	[CraftingMapper.CreateCrushingMapper]
-		#ProjectE-Integration Recipe Mapper for Create Crushing Mapper. Required Mods: [create]
-		enabled = true
-
 	[CraftingMapper.SomtingThermalChillerMapper]
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Chiller Mapper. Required Mods: [thermal]
 		enabled = true
 
-	[CraftingMapper.SomtingThermalBrewerMapper]
-		#ProjectE-Integration Recipe Mapper for Somting Thermal Brewer Mapper. Required Mods: [thermal]
+	[CraftingMapper.CreateCrushingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Crushing Mapper. Required Mods: [create]
 		enabled = true
 
-	[CraftingMapper.DraconicEvolutionFusionMapper]
-		#ProjectE-Integration Recipe Mapper for Draconic Evolution Fusion Mapper. Required Mods: [draconicevolution]
+	[CraftingMapper.SomtingThermalBrewerMapper]
+		#ProjectE-Integration Recipe Mapper for Somting Thermal Brewer Mapper. Required Mods: [thermal]
 		enabled = true
 
 [enabledMappers]
@@ -244,10 +220,10 @@
 	CraftingMapper = true
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
 	TagMapper = true
-	#Add Conversions for Brewing Recipes
-	BrewingMapper = true
 	#Allows setting EMC values through CraftTweaker. This behaves similarly to if someone used the custom emc file instead.
 	CrTCustomEMCMapper = true
+	#Add Conversions for Brewing Recipes
+	BrewingMapper = true
 	#Recipe mapper for custom recipes that don't implement IRecipe
 	ProjectEIntegrationRecipeMapper = true
 	#Loads json files within datapacks (data/<domain>/pe_custom_conversions/*.json) to add values and conversions

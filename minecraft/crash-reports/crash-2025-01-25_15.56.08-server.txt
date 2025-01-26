@@ -1,0 +1,105 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2025-01-25 15:56:08
+Description: Exception in server tick loop
+
+org.valkyrienskies.core.impl.util.assertions.stages.ConstraintFailedException: Constraints failed. Stages since last reset: [PRE_TICK, GET_LAST_TICK_CHANGES, UPDATE_CHUNKS, UPDATE_CHUNKS, UPDATE_CHUNKS, POST_TICK_START, POST_TICK_GENERATED, POST_TICK_FINISH, GET_CURRENT_TICK_CHANGES, CLEAR_FOR_RESET, UPDATE_DIMENSIONS, UPDATE_PLAYERS]
+Required stages matching predicate in the following order: [PRE_TICK, oneOf[UPDATE_DIMENSIONS, UPDATE_BLOCKS, UPDATE_CHUNKS], POST_TICK_START, POST_TICK_GENERATED, POST_TICK_FINISH, CLEAR_FOR_RESET, UPDATE_PLAYERS]
+	at org.valkyrienskies.core.impl.util.assertions.stages.TickStageEnforcerImpl.stage(Unknown Source) ~[valkyrienskies-119-2.1.2-beta.1.jar%23162!/:?] {re:classloading}
+	at org.valkyrienskies.core.impl.game.ships.ShipObjectServerWorld.setPlayers(Unknown Source) ~[valkyrienskies-119-2.1.2-beta.1.jar%23162!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.handler$zcf000$preTick(MinecraftServer.java:2549) ~[client-1.19.2-20220805.130853-srg.jar%23163!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java) ~[client-1.19.2-20220805.130853-srg.jar%23163!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:84) ~[client-1.19.2-20220805.130853-srg.jar%23163!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:654) ~[client-1.19.2-20220805.130853-srg.jar%23163!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[client-1.19.2-20220805.130853-srg.jar%23163!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.8, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1446315752 bytes (1379 MiB) / 6224347136 bytes (5936 MiB) up to 12582912000 bytes (12000 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 5900X 12-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.69
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: Virtual Desktop Monitor
+	Graphics card #0 vendor: Virtual Desktop, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=15.39.56.845
+	Graphics card #1 name: NVIDIA GeForce RTX 3090 Ti
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2203
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.6614
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 2.40
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 2.40
+	Memory slot #3 type: DDR4
+	Virtual memory max (MB): 40882.87
+	Virtual memory used (MB): 33715.72
+	Swap memory total (MB): 8192.00
+	Swap memory used (MB): 130.09
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12000m
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Mr_Cat123'/315, l='ServerLevel[New World]', x=-1105.40, y=77.00, z=1329.12]]
+	Data Packs: vanilla, mod:jei (incompatible), mod:tardis_refined, mod:kotlinforforge (incompatible), mod:mixinextras (incompatible), mod:architectury (incompatible), mod:jeresources, mod:valkyrienskies (incompatible), mod:cloth_config (incompatible), mod:forge
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: 1.19.2
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+		kotlinforforge@3.12.0
+		lowcodefml@null
+	Mod List: 
+		client-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		jei-1.19.2-forge-11.8.1.1034.jar                  |Just Enough Items             |jei                           |11.8.1.1034         |DONE      |Manifest: NOSIGNATURE
+		TARDIS Refined-1.19.2-1.0.1-forge.jar             |TARDIS Refined                |tardis_refined                |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		kffmod-3.12.0.jar                                 |Kotlin For Forge              |kotlinforforge                |3.12.0              |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0.jar                       |MixinExtras                   |mixinextras                   |0.2.0               |DONE      |Manifest: NOSIGNATURE
+		architectury-6.6.92-forge.jar                     |Architectury                  |architectury                  |6.6.92              |DONE      |Manifest: NOSIGNATURE
+		JustEnoughResources-1.19.2-1.2.3.243.jar          |Just Enough Resources         |jeresources                   |1.2.3.243           |DONE      |Manifest: NOSIGNATURE
+		valkyrienskies-119-2.1.2-beta.1.jar               |Valkyrien Skies 2             |valkyrienskies                |2.1.2-beta.1        |DONE      |Manifest: NOSIGNATURE
+		cloth-config-forge-8.3.103.jar                    |Cloth Config v8 API           |cloth_config                  |8.3.103             |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.4.0-universal.jar                 |Forge                         |forge                         |43.4.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+	Crash Report UUID: d2950ebf-5d52-48e2-b67e-a6eeab524985
+	FML: 43.4
+	Forge: net.minecraftforge:43.4.0

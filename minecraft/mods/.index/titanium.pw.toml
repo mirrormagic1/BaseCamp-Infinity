@@ -1,16 +1,16 @@
-filename = 'titanium-1.18.2-3.5.11-47.jar'
+filename = 'titanium-1.19.2-3.7.3-27.jar'
 name = 'Titanium'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e4cb166b3ced399d34607a9d032bb374fe60d7d8'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '83bc6e0802e7857873cfa685fb2fba9fc50e7d8db3547648a080b22d9cb35349efe1cd70481c3f41e2094aca34d623c0f1decda7f6fbb47c874c3c8eeea310c0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1Ro7m06l/versions/C671K5PG/titanium-1.19.2-3.7.3-27.jar'
 
-[update.curseforge]
-file-id = 5151207
-project-id = 287342
+[update.modrinth]
+mod-id = '1Ro7m06l'
+version = 'C671K5PG'

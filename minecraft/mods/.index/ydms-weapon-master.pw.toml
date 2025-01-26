@@ -1,0 +1,16 @@
+filename = 'weaponmaster_ydm-forge-1.19.2-4.2.3.jar'
+name = "YDM's Weapon Master"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd7d60fe6da047f705df53401d49ab845627d963e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5019497
+project-id = 608235

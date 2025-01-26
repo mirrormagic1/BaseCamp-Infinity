@@ -1,16 +1,16 @@
-filename = 'jei-1.18.2-forge-10.2.1.1009.jar'
-name = 'Just Enough Items (JEI)'
+filename = 'jei-1.19.2-forge-11.8.1.1034.jar'
+name = 'Just Enough Items'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = 'de14ce262802a0313783e443d40413c3c032acbc'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '69318101ad0286d02f046b5b3e449c1490d37a6256b673132bdc5df577ccafad2cdc1c9d7b2be2f3d1fd0a16b25d6fe3c209b0085544aae58b4f8bd222ec1a5d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u6dRKJwZ/versions/LIkb8oaL/jei-1.19.2-forge-11.8.1.1034.jar'
 
-[update.curseforge]
-file-id = 5846864
-project-id = 238222
+[update.modrinth]
+mod-id = 'u6dRKJwZ'
+version = 'LIkb8oaL'

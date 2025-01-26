@@ -1,16 +1,16 @@
-filename = 'ironchest-1.18.2-13.2.11.jar'
+filename = 'ironchest-1.19.2-14.2.7.jar'
 name = 'Iron Chests'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = 'cff2b97673a833704d8f28ea46dbc8d6eaac92a3'
+hash = '8fb91f5339da09b856b574288b6151a2bde9d60f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3966367
+file-id = 3966365
 project-id = 228756

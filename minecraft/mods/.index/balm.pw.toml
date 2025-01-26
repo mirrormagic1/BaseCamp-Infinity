@@ -1,16 +1,16 @@
-filename = 'balm-3.2.6.jar'
+filename = 'balm-forge-1.19.2-4.6.0.jar'
 name = 'Balm'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'a0be48540d7d9661db8db54cbc96a94b59793fcb'
+hash = '26e05173447e692783eb6a92197f6bf45d894e54'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4442615
+file-id = 4751735
 project-id = 531761

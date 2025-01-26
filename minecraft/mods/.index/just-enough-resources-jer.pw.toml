@@ -1,16 +1,16 @@
-filename = 'JustEnoughResources-1.18.2-0.14.2.206.jar'
+filename = 'JustEnoughResources-1.19.2-1.2.3.243.jar'
 name = 'Just Enough Resources (JER)'
 side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
-x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd6cddc1555988e58539a49cda8a4d49eb517c0dd5ab92d5e9d4d289513d2e9dcc97a0b3d77e4c0d35a202a9bb1a29878d45505e54176ee570e8a71cf49bcd4e9'
+hash = 'e17033b0a6ccb333525f642a5de0c18aa0710f301b511f76b4e2601ef4f84bb04fdd59ed05c936ba7b6cf22486b2643e82a940503dba0288af6d0f9dc19dd79c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/uEfK2CXF/versions/1oiTtRvR/JustEnoughResources-1.18.2-0.14.2.206.jar'
+url = 'https://cdn.modrinth.com/data/uEfK2CXF/versions/gYpN3Xsx/JustEnoughResources-1.19.2-1.2.3.243.jar'
 
 [update.modrinth]
 mod-id = 'uEfK2CXF'
-version = '1oiTtRvR'
+version = 'gYpN3Xsx'

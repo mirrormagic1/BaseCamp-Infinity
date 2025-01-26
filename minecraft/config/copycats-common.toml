@@ -46,6 +46,7 @@ disableMigration = false
 #Enable/disable categories of features. Disabling a category hides all related features. Values on server override clients
 [feature_categories]
 	#.
+	#.
 	#All copycats with a sloped surface
 	slopes = true
 	#.

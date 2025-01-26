@@ -1,16 +1,16 @@
-filename = 'Applied-Mekanistics-1.2.2.jar'
+filename = 'Applied-Mekanistics-1.3.5.jar'
 name = 'Applied Mekanistics'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '473e32ee3937706b8afbb9260b7a5fb55cc6f083'
+hash = '395274d8e991ea6c9201e217b44af0e3698177e1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3968835
+file-id = 4734608
 project-id = 574300

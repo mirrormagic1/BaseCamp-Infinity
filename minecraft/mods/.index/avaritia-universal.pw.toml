@@ -1,0 +1,16 @@
+filename = 'Avaritia-1.19.2-2.1.11-universal-pre-final.jar'
+name = 'Avaritia Universal'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '632a45000c69db31b66728625bfd6db8dcd85aa3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5506589
+project-id = 891434

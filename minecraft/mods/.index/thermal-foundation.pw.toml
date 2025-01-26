@@ -1,16 +1,16 @@
-filename = 'thermal_foundation-1.18.2-9.2.2.58.jar'
+filename = 'thermal_foundation-1.19.2-10.3.1.57.jar'
 name = 'Thermal Foundation'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9199d4f225ecae1ca771ff81a14cefb99222cb42'
+hash = '14ade1c7880831dbe184676f56fed0be14ac717e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4788649
+file-id = 4782926
 project-id = 222880

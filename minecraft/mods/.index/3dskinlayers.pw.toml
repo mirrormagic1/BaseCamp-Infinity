@@ -1,0 +1,16 @@
+filename = 'skinlayers3d-forge-1.7.4-mc1.19.2.jar'
+name = '3D Skin Layers'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6a97b5c2c2ff2c17b3cbf325f35f60b0bdf74a20ba6f0fd222d91d0b20369ddc3a953bb21a73b498c8d370da62c2d4e8c5ca2e4415886084db084456688170f8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/xpLAavRJ/skinlayers3d-forge-1.7.4-mc1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'zV5r3pPn'
+version = 'xpLAavRJ'

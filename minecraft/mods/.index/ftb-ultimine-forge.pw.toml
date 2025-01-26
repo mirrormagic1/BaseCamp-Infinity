@@ -1,0 +1,16 @@
+filename = 'ftb-ultimine-forge-1902.4.2-build.14.jar'
+name = 'FTB Ultimine (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '75ef13308212bf09ae658b1dfee8e3e565ed2100'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5670778
+project-id = 386134

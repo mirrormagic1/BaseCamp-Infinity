@@ -1,16 +1,16 @@
-filename = 'JustEnoughMekanismMultiblocks-1.18.2-2.6.jar'
+filename = 'JustEnoughMekanismMultiblocks-1.19.2-3.7.jar'
 name = 'Just Enough Mekanism Multiblocks'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'ae55c4428d526f86e50f429814fd553db1d631bb'
+hash = '27b2904e9e0463bdaa0221e86ec16220cd0962c6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5948738
+file-id = 5948743
 project-id = 898746

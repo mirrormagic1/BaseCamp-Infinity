@@ -1,16 +1,16 @@
-filename = 'thermal_locomotion-1.18.2-9.2.1.15.jar'
+filename = 'thermal_locomotion-1.19.2-10.3.0.16.jar'
 name = 'Thermal Locomotion'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e6ac90492a6d81812a3a1b6519fc896d1ff8dccae1d1c581fa92d4891edbbc8bd1e4fc83fb339a3fa80a2e2ef489f5fe939c4817d68194feee7a9c7996911e6a'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/L3eFR8i3/versions/w9DGpbmh/thermal_locomotion-1.18.2-9.2.1.15.jar'
+hash = '3b94670da12879fdbab9a20f3e2ab963182e44b8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'L3eFR8i3'
-version = 'w9DGpbmh'
+[update.curseforge]
+file-id = 4759916
+project-id = 406959

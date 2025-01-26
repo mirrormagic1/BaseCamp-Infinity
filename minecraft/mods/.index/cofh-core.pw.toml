@@ -1,16 +1,16 @@
-filename = 'cofh_core-1.18.2-9.2.3.47.jar'
+filename = 'cofh_core-1.19.2-10.3.1.48.jar'
 name = 'CoFH Core'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b0b6d3196fbb6e96874e31932421c45cf3d8f2eb'
+hash = '7ad5e45fff2f250f08961e3dda6d602f73f34010'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4801048
+file-id = 4801049
 project-id = 69162

@@ -1,0 +1,16 @@
+filename = 'PackagedAvaritia-1.19.2-2.1.0.6.jar'
+name = 'PackagedAvaritia'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'f543db4294b24ea156a7223a4f0536657c1eca206eaecadb5abe38566ed5f05bc99ca43b7c54f21740fe48c4755635fe8afd70a49c7bcb8d536a32c7f6ae971e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aA94MQL4/versions/kWyLYS0X/PackagedAvaritia-1.19.2-2.1.0.6.jar'
+
+[update.modrinth]
+mod-id = 'aA94MQL4'
+version = 'kWyLYS0X'

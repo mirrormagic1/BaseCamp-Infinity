@@ -1,0 +1,16 @@
+filename = 'Mekanism-MoreSolarPanels-1.19.2-1.5.2.jar'
+name = 'Mekanism-MoreSolarPanels'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9ad6f5d02bbac83cc8137e3d9fc9249ac6149e1e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4645078
+project-id = 844063

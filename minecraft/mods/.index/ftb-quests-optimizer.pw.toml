@@ -1,0 +1,16 @@
+filename = 'FTBQuestsOptimizer-forge-1.2.1-1.19.2.jar'
+name = 'FTB Quests Optimizer'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2af2fb5a77c0ffe8e19370616367439930b49fbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5065537
+project-id = 912469

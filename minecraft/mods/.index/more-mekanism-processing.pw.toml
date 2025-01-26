@@ -1,16 +1,16 @@
-filename = 'MoreMekanismProcessing-1.18.2-2.7.jar'
+filename = 'MoreMekanismProcessing-1.19.2-3.2.jar'
 name = 'More Mekanism Processing'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '81d4048c96f9014e82325c6c6963b98c21579d00'
+hash = 'cb8797a3ae34a1edbe5f5cdfaa1710f26db8210e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5932717
+file-id = 5932733
 project-id = 511965

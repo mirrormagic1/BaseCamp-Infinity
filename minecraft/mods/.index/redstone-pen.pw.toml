@@ -1,16 +1,16 @@
-filename = 'redstonepen-1.18.2-1.0.13.jar'
+filename = 'redstonepen-1.19.2-forge-1.2.32.jar'
 name = 'Redstone Pen'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'f6066920942b2b5b2de58b2fe4a64bd4899ed2ec'
+hash = '0816517f71eda0dd4cd0d8e86ed5b26d37f3e27b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4327952
+file-id = 5242849
 project-id = 461710

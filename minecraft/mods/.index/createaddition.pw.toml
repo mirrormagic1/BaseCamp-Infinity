@@ -1,16 +1,16 @@
-filename = 'createaddition-1.18.2-1.0.0.jar'
+filename = 'createaddition-1.19.2-1.2.3.jar'
 name = 'Create Crafts & Additions'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8f085f69db71149b980df8fcbfc97d81b28cd52d'
+hash = '21aa45feceafac98ad919975e2a7483d3a67d022'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4683727
+file-id = 5099757
 project-id = 439890

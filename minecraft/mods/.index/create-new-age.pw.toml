@@ -1,0 +1,16 @@
+filename = 'create-new-age-forge-1.19.2-1.1.2.jar'
+name = 'Create: New Age'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1d787b464ce780b5cde1931bc74c2a8c082a6e3a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5080954
+project-id = 905861

@@ -1,16 +1,16 @@
-filename = 'drippyloadingscreen_forge_3.0.9_MC_1.18.2.jar'
+filename = 'drippyloadingscreen_forge_3.0.9_MC_1.19.2.jar'
 name = 'Drippy Loading Screen'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '7296479ff5be7e64b5eac057119e2559e90c2e07'
+hash = 'b366b36ca9ad1b8f04bc96d9aad82fdf2406bceb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5796436
+file-id = 5796438
 project-id = 511770

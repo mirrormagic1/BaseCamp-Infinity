@@ -55,6 +55,7 @@
 	can_change_scale = true
 
 	[model_options.positions_rotations]
+		#Position and rotation settings
 		#x position0
 		#Range: > -2147483648
 		x_position0 = 0
@@ -76,6 +77,7 @@
 		#scale0
 		#Range: > -100
 		scale0 = 0
+		#Position and rotation settings
 		#x position3
 		#Range: > -2147483648
 		x_position3 = 35
@@ -97,6 +99,7 @@
 		#scale1
 		#Range: > -100
 		scale1 = 0
+		#Position and rotation settings
 		#x position6
 		#Range: > -2147483648
 		x_position6 = 1
@@ -118,6 +121,7 @@
 		#scale2
 		#Range: > -100
 		scale2 = 0
+		#Position and rotation settings
 		#x position9
 		#Range: > -2147483648
 		x_position9 = 32
@@ -139,6 +143,7 @@
 		#scale3
 		#Range: > -100
 		scale3 = 0
+		#Position and rotation settings
 		#x position12
 		#Range: > -2147483648
 		x_position12 = 1
@@ -160,6 +165,7 @@
 		#scale4
 		#Range: > -100
 		scale4 = 0
+		#Position and rotation settings
 		#x position15
 		#Range: > -2147483648
 		x_position15 = 31
@@ -181,6 +187,7 @@
 		#scale5
 		#Range: > -100
 		scale5 = 0
+		#Position and rotation settings
 		#x position18
 		#Range: > -2147483648
 		x_position18 = -13
@@ -202,6 +209,7 @@
 		#scale6
 		#Range: > -100
 		scale6 = 0
+		#Position and rotation settings
 		#x position21
 		#Range: > -2147483648
 		x_position21 = 25
@@ -223,6 +231,7 @@
 		#scale7
 		#Range: > -100
 		scale7 = 0
+		#Position and rotation settings
 		#x position24
 		#Range: > -2147483648
 		x_position24 = 1
@@ -244,6 +253,7 @@
 		#scale8
 		#Range: > -100
 		scale8 = 0
+		#Position and rotation settings
 		#x position27
 		#Range: > -2147483648
 		x_position27 = 0
@@ -265,6 +275,7 @@
 		#scale9
 		#Range: > -100
 		scale9 = 0
+		#Position and rotation settings
 		#x position30
 		#Range: > -2147483648
 		x_position30 = 0
@@ -286,6 +297,7 @@
 		#scale10
 		#Range: > -100
 		scale10 = 0
+		#Position and rotation settings
 		#x position33
 		#Range: > -2147483648
 		x_position33 = -2
@@ -307,6 +319,7 @@
 		#scale11
 		#Range: > -100
 		scale11 = 0
+		#Position and rotation settings
 		#x position36
 		#Range: > -2147483648
 		x_position36 = 0

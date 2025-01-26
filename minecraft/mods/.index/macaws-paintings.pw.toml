@@ -1,16 +1,16 @@
-filename = 'mcw-paintings-1.0.5-1.18.2forge.jar'
+filename = 'mcw-paintings-1.0.5-1.19.2forge.jar'
 name = "Macaw's Paintings"
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '52d6995570007767fb078f78350a2eede320a4be'
+hash = '52097024b0563ea2e2eb5d7fe4607e6218d2fca7'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4848144
+file-id = 4848147
 project-id = 438116

@@ -1,16 +1,16 @@
-filename = 'DynamicTreesPlus-1.18.2-1.0.5.jar'
+filename = 'DynamicTreesPlus-1.19.2-1.1.4.jar'
 name = 'Dynamic Trees +'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9a429d2114bda1698d90c4f97b0767fc3f0e9c5cc5c71c067de37f1a510956405504803ba79d21ad10a3ffa412f2c223c9c736ec5d348f451d9edf0d51fac054'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/qaO9Dqpu/versions/Hbgz12i4/DynamicTreesPlus-1.18.2-1.0.5.jar'
+hash = '9fa0caa19e39164f8ba3ae2ebd7501ee54bf6d3d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'qaO9Dqpu'
-version = 'Hbgz12i4'
+[update.curseforge]
+file-id = 5344010
+project-id = 478155

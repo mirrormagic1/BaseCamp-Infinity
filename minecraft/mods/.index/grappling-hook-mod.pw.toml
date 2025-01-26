@@ -1,16 +1,16 @@
-filename = 'grappling_hook_mod-1.18.2-v13.jar'
+filename = 'grappling_hook_mod-1.19.2-1.19.2-v13.jar'
 name = 'Grappling Hook Mod'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8120486ab09034379655a71e3fdc9dcfd971739c'
+hash = '5f65c1bcc10ffef19eb8395aa80c69518ca914f3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3795235
+file-id = 3968748
 project-id = 238911

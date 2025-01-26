@@ -1,0 +1,16 @@
+filename = 'forge-extra_shells-1.0.1.jar'
+name = 'Tardis Refined: ExtraShells'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2e16ba73e2c3119611740ebb2d2d38a88db69629874b67abf804a73d23442e91561dcf6558d6925a1917ba575078b4dcd0feb0e9cf29aa0537a229030d95ed5d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JPwgh9iH/versions/4CjZha36/forge-extra_shells-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'JPwgh9iH'
+version = '4CjZha36'

@@ -1,16 +1,16 @@
-filename = 'BetterF3-3.0.0-Forge-1.18.2.jar'
+filename = 'BetterF3-4.0.1-Forge-1.19.2.jar'
 name = 'BetterF3'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '828c97a2439d8f1a37e7237d3b99e4b93b7e76ee'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '0e459bad92565751912866075b0e3de6af06761c5bacbcffac1892bc6cb22ab345d26c9c52a72b62bed2ca28bc64df0d7d515c00054c13782419285de0157a96'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8shC1gFX/versions/mMlLANpz/BetterF3-4.0.1-Forge-1.19.2.jar'
 
-[update.curseforge]
-file-id = 4030561
-project-id = 401648
+[update.modrinth]
+mod-id = '8shC1gFX'
+version = 'mMlLANpz'

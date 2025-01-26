@@ -1,16 +1,16 @@
-filename = 'waystones-forge-1.18.2-10.2.2.jar'
+filename = 'waystones-forge-1.19.2-11.4.2.jar'
 name = 'Waystones'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '0c57404852b6957dc1efda6f1bbc2d1021d3b914'
+hash = 'a11236a564f8e34e358b8b6207086d030abcc6bb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4943242
+file-id = 4943265
 project-id = 245755
