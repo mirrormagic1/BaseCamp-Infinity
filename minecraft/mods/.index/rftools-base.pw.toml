@@ -1,0 +1,16 @@
+filename = 'rftoolsbase-1.19-4.1.10.jar'
+name = 'RFTools Base'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '870498a7fd1b8be76d893d8ef74e3efddc00c609ebbc93086d0f44e50844e0c5b7782070d2c4dbc1eeb26b2d9736249fa11858fc7d746d4c47224a9b74ddaab0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hIO8IsD8/versions/eVoRfw4X/rftoolsbase-1.19-4.1.10.jar'
+
+[update.modrinth]
+mod-id = 'hIO8IsD8'
+version = 'eVoRfw4X'

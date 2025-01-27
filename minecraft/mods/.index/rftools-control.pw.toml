@@ -1,0 +1,16 @@
+filename = 'rftoolscontrol-1.19-6.1.5.jar'
+name = 'RFTools Control'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7ba2fc735a2129271f305f164aa20869b3288d6bcc26a7449a8a31126ebddb9400c70292292acf29e4690de95175e18d45efc0e7c3c14cf69d82273d6414bf98'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DQjhR62z/versions/RP3ZhZCz/rftoolscontrol-1.19-6.1.5.jar'
+
+[update.modrinth]
+mod-id = 'DQjhR62z'
+version = 'RP3ZhZCz'

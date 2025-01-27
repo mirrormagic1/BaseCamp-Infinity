@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/smallericon.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icn/basecampbig.png';
-S:custom_window_title = 'BaseCamp Infinity PreAlpha';
+S:custom_window_title = 'BaseCraft: Infinity - preAlpha';
 S:custom_window_icon_16 = '/config/fancymenu/assets/icn/basecampsmall.png';
 
 
