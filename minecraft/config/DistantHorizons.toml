@@ -712,7 +712,7 @@ _version = 2
 			# FEATURES 
 			# Generate everything except structures. 
 			# WARNING: This may cause world generator bugs or instability when paired with certain world generator mods.
-			distantGeneratorMode = "FEATURES"
+			distantGeneratorMode = "SURFACE"
 			#
 			# How long should a world generator thread run for before timing out? 
 			# Note: If you are experiencing timeout errors it is better to lower your CPU usage first 

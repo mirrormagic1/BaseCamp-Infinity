@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/ryanc/AppData/Roaming/PrismLauncher/instances/BaseCamp-Infinity/minecraft/saves/New World (10)
+  is_server = true
+  world = basecamp.gay:25565
 }
 
