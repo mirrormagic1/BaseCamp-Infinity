@@ -1,0 +1,8 @@
+.git
+.gitattributes
+.gitignore
+minecraft/libvlc.dll
+minecraft/libvlccore.dll
+minecraft/saves
+minecraft/screenshots
+minecraft/servers.dat_old

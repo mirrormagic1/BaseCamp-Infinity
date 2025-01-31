@@ -35,9 +35,15 @@
 	#Robin Spawn Weight
 	#Range: 0 ~ 1000
 	robinSpawnWeight = 8
+	#Finch Spawn Weight
+	#Range: 0 ~ 1000
+	finchSpawnWeight = 8
+	#Sparrow Spawn Weight
+	#Range: 0 ~ 1000
+	sparrowSpawnWeight = 8
 	#Butterfly Spawn Weight
 	#Range: 0 ~ 1000
-	butterflySpawnWeight = 6
+	butterflySpawnWeight = 20
 	#Duck Spawn Weight
 	#Range: 0 ~ 1000
 	duckSpawnWeight = 15
@@ -73,7 +79,7 @@
 	boarSpawnWeight = 8
 	#Dragonfly Spawn Weight
 	#Range: 0 ~ 1000
-	dragonflySpawnWeight = 8
+	dragonflySpawnWeight = 1
 	#Catfish Spawn Weight
 	#Range: 0 ~ 1000
 	catfishSpawnWeight = 8

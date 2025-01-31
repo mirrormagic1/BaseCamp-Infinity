@@ -1,0 +1,16 @@
+filename = 'iron_ender_chests-1.20-1.0.3.jar'
+name = 'Iron Ender Chests'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c6e82837421a51408f8fba79b08fd2554719777e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5192538
+project-id = 881026

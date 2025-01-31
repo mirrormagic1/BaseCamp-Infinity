@@ -1,16 +1,16 @@
-filename = 'Patchouli-1.19.2-77.jar'
+filename = 'Patchouli-1.20.1-84-FORGE.jar'
 name = 'Patchouli'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '0be48af1a47b76beb5429740e380f8ae215193e1df95a9a87ff038c2fd820de9c5c01dac94618b624482fb1421698bfb8ec811401c252a0c168f1b07abaa9eb8'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/nU0bVIaL/versions/62ztr7HA/Patchouli-1.19.2-77.jar'
+hash = 'b6b7267f3669c10c167d5d375d0274d40e3eb756'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'nU0bVIaL'
-version = '62ztr7HA'
+[update.curseforge]
+file-id = 4966125
+project-id = 306770

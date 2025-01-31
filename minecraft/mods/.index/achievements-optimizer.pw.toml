@@ -1,16 +1,16 @@
-filename = 'AchievementOptimizer-1.19.2-1.0.2.jar'
+filename = 'AchievementOptimizer-1.20.1-1.0.5.jar'
 name = 'Achievements Optimizer'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd633b2f25aee8534c13be8d6bebe246219b9e5b8'
+hash = '40bfd89ad3bb5d9f6c6d08cba4dee0e89330ab2b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4793117
+file-id = 5363614
 project-id = 912788

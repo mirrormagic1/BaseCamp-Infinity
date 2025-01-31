@@ -1,16 +1,16 @@
-filename = 'thermal_locomotion-1.19.2-10.3.0.16.jar'
+filename = 'thermal_locomotion-1.20.1-11.0.1.19.jar'
 name = 'Thermal Locomotion'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '3b94670da12879fdbab9a20f3e2ab963182e44b8'
+hash = 'f39c3b75c4a34bc838c1abcc1ba88a8e724b11ec'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4759916
+file-id = 5372752
 project-id = 406959

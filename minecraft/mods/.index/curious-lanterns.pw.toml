@@ -1,16 +1,16 @@
-filename = 'curiouslanterns-1.19.2-1.3.4.jar'
+filename = 'curiouslanterns-1.20.1-1.3.3.jar'
 name = 'Curious Lanterns'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5fc597392fe9ad63a6198bb0ae30f74fc17e2ccef36e30aecedbe56dd3cb7ab5a3ed666b4313f707d3b68a1fe8ef923da89ed07f1c37d4df39a5a78b1601e535'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/cE5SLYbv/versions/W2q6YeGt/curiouslanterns-1.19.2-1.3.4.jar'
+hash = '0f408fc6893b94b9a9d28fcbaa8675d1c32d2117'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'cE5SLYbv'
-version = 'W2q6YeGt'
+[update.curseforge]
+file-id = 5763159
+project-id = 621377

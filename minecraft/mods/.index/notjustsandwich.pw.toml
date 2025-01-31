@@ -1,0 +1,16 @@
+filename = 'NotJustSandwich_forge_1.9.1_1.20.1.jar'
+name = 'Not Just Sandwich'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5d4a9bb0e828162e0db602a9d9367f6d8669751159c54b602cb5a8dfe6e05dd9bed2165029365098b001e410d489d0dc949a33e753b815d05637e6d476e9e95d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/odQjXVJC/versions/3NZO8Ewb/NotJustSandwich_forge_1.9.1_1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'odQjXVJC'
+version = '3NZO8Ewb'

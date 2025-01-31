@@ -1,16 +1,16 @@
-filename = 'supermartijn642corelib-1.1.18-forge-mc1.19.2.jar'
+filename = 'supermartijn642corelib-1.1.18-forge-mc1.20.1.jar'
 name = "SuperMartijn642's Core Lib"
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '02106f76fe62e258e4972342afb0b2d928d1271016bf156990908b79354e8d1b03ab01b90b606fb91c5b45a1b88a047a7f9df99972e8ffd94ae20e984bece589'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/rOUBggPv/versions/CjRX4qz1/supermartijn642corelib-1.1.18-forge-mc1.19.2.jar'
+hash = 'd37e1148b512c67cee704635b4f07d1f9ea8c31c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'rOUBggPv'
-version = 'CjRX4qz1'
+[update.curseforge]
+file-id = 6034718
+project-id = 454372

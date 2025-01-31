@@ -1,16 +1,16 @@
-filename = 'dimensionalsycnfixes-1.19.2-0.0.1.jar'
+filename = 'dimensionalsycnfixes-1.20.1-0.0.1.jar'
 name = 'Dimensional Sync Fixes'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd6c535e823f2bec9a757fbc12830c99b5a6b3a0dfef18b84d0d95d31d9c7f410a7da8b531389dceec22be159ed733dfaf93155fea3d11d3767043e1aa9ce3753'
+hash = '3a6d103aee7af3d4cbcf04c62620cc494f86a904af5e1b3469d429e41831a4e35ce1ec252d6fd96a5cda3c97a73165b9dda4fad1baabf9da471c3cd3f8f84f95'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/445bpKSe/versions/EcjrV5lh/dimensionalsycnfixes-1.19.2-0.0.1.jar'
+url = 'https://cdn.modrinth.com/data/445bpKSe/versions/Czaob9r1/dimensionalsycnfixes-1.20.1-0.0.1.jar'
 
 [update.modrinth]
 mod-id = '445bpKSe'
-version = 'EcjrV5lh'
+version = 'Czaob9r1'

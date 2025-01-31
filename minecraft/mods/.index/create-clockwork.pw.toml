@@ -1,16 +1,16 @@
-filename = 'clockwork-1.19.2-0.1.13-forge-4621aeec07.jar'
+filename = 'clockwork-1.20.1-0.1.13-forge-8cf946b78e.jar'
 name = 'Clockwork: Create x Valkyrien Skies'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '9ada69346fa544b16745f4821f4228257fe8e4ef'
+hash = '87cfbbe497ed75f2e02ecccafeb99915352bb30e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5171528
+file-id = 5171534
 project-id = 807792

@@ -1,16 +1,16 @@
-filename = 'TARDIS Refined-1.19.2-1.0.1-forge.jar'
+filename = 'forge-tardis_refined-mc1.20.1-v2.1.3.jar'
 name = 'TARDIS Refined'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'ed635d9c3f6e6aa5bdb5b9077edc209e979ae1d47fc8afec12a9a6a7dfa4794ce2d70787abb1c3ed51832a21f88fc6fe1d582af43efdd920f742f4d153793004'
+hash = '12e09e50e5153f478dd1cafe2b713e925115c6f36996aa2effffdf1e04df41d0cefbf68e955d438b5fa266bfe935ac09f0ebfa10109b6c99aac7df0a7b146e30'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/nqVt6aES/versions/I8A0Dhhj/TARDIS Refined-1.19.2-1.0.1-forge.jar'
+url = 'https://cdn.modrinth.com/data/nqVt6aES/versions/dxGftbwr/forge-tardis_refined-mc1.20.1-v2.1.3.jar'
 
 [update.modrinth]
 mod-id = 'nqVt6aES'
-version = 'I8A0Dhhj'
+version = 'dxGftbwr'

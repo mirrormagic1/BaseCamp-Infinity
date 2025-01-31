@@ -2,9 +2,11 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
-    "advancedperipherals:manual": {
+    "extendedcrafting:guide": {
       "viewedEntries": [
-        "advancedperipherals:metaphysics/weak_automata_core"
+        "extendedcrafting:crafting/tables",
+        "extendedcrafting:crafting/ender_crafting",
+        "extendedcrafting:crafting/flux_crafting"
       ],
       "bookmarks": [],
       "completedManualQuests": []

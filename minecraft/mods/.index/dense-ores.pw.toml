@@ -1,16 +1,16 @@
-filename = 'denseores-1.19.2-1.2.1.jar'
+filename = 'denseores-1.20.1-1.2.1.jar'
 name = 'Dense Ores'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b9de0d7665378568e510a06d218a0b20e7dc0d35e4d67863bee7f6a27103ab203446ab4ea4483075f9d67b0dd5e1ddcd1dc08318602d39aaddc8909de71fac50'
+hash = '02a54781dd69175602306ac29c700964399b83e183b3d4f74fb96070735207a94050680a0f052fbea68dd52a46b833e43e2c59254559287b7fcd6397c9eeb7de'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/1pigpywM/versions/A2rLRaqv/denseores-1.19.2-1.2.1.jar'
+url = 'https://cdn.modrinth.com/data/1pigpywM/versions/D1rpOC4d/denseores-1.20.1-1.2.1.jar'
 
 [update.modrinth]
 mod-id = '1pigpywM'
-version = 'A2rLRaqv'
+version = 'D1rpOC4d'

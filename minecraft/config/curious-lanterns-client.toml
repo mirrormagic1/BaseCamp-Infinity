@@ -1,6 +1,6 @@
 
 ["Client Configs for Curious Lanterns"]
 	#Should the lantern swing or not.
-	#Default: false
-	"Should Swing" = false
+	#Default: true
+	"Should Swing" = true
 

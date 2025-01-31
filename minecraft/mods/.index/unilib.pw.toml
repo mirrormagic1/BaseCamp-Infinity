@@ -1,16 +1,16 @@
-filename = 'UniLib-1.0.5+1.19.2-forge.jar'
+filename = 'UniLib-1.0.5+1.20.1-forge.jar'
 name = 'UniLib'
 side = 'client'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8fe69bdd0955149a89f37fa8b1db6a232e2b1e94'
+hash = '1ffef0d813d911d44105ea9e63dde970edee018e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6087695
+file-id = 6087784
 project-id = 1056812

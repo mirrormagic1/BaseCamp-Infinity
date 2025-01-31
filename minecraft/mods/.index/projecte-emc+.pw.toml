@@ -1,0 +1,16 @@
+filename = 'projecteemc-1.0.3-1.20.1.jar'
+name = 'ProjectE EMC+'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f3c9116d934e943428dff91ed0dd56a204820ca071ad836f13149c4c7e2c7d467e31025c2c9583577a8a1491c64670fecefea3cc15d4e7a1e353a096804fe41c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7W0bejp5/versions/bS2ChUf1/projecteemc-1.0.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '7W0bejp5'
+version = 'bS2ChUf1'

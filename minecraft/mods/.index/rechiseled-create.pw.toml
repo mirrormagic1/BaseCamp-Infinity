@@ -1,16 +1,16 @@
-filename = 'rechiseledcreate-1.0.2-forge-mc1.19.jar'
+filename = 'rechiseledcreate-1.0.2-forge-mc1.20.jar'
 name = 'Rechiseled: Create'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '10b9d86d3f3759b30415b1eac956f431c84e1867'
+hash = 'ce33c06e2d087470c3ddaf12ae0f676da7872699'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5093215
+file-id = 5093226
 project-id = 888624

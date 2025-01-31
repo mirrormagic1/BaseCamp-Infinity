@@ -1,0 +1,16 @@
+filename = 'corpsecurioscompat-1.20.1-Forge-2.0.1.jar'
+name = 'Corpse x Curios API Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9ecf4674e3de4b3facecb81bb1eadfc2c936d9f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6045850
+project-id = 1138130

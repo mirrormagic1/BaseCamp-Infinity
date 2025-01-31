@@ -1,16 +1,16 @@
-filename = 'ChickenChunks-1.19.2-2.9.4.97-universal.jar'
+filename = 'ChickenChunks-1.20.1-2.10.0.100-universal.jar'
 name = 'Chicken Chunks'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '571789aba9ca94943330e3443c0ca67737e2eeb050f549baf80a3347d3da1eb1e3df0bc38e117e857f9c6e1a26686c9e14adb71d4a4225378d886c7f3d775d04'
+hash = '04aaf76f969420ec3dcf8c929c99eed624956dff9800fd71e604f78a57a27ea839075c5012227eb8abf6c29ae8d3d66728ee8525a819b5ec9071a12370a4927d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/2JkvF271/versions/H6NPHtk3/ChickenChunks-1.19.2-2.9.4.97-universal.jar'
+url = 'https://cdn.modrinth.com/data/2JkvF271/versions/9XYNvXCn/ChickenChunks-1.20.1-2.10.0.100-universal.jar'
 
 [update.modrinth]
 mod-id = '2JkvF271'
-version = 'H6NPHtk3'
+version = '9XYNvXCn'

@@ -1,16 +1,16 @@
-filename = 'baubley-heart-canisters-1.19.2-2.1.0.jar'
+filename = 'baubley-heart-canisters-1.20.1-1.0.3.jar'
 name = 'Baubley Heart Canisters'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.19', '1.19.2' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '47ea833528d0b1aabd72451646058899c33eeae511b37397c9fc76f0c0ef22bbf9674f945e4b23839f74c280f0215d61acd925a78dfa1c90de1ea5297a8d36dd'
+hash = '825655ea07c02980c451642a516c6c13eaf7f8e90309a583d9e255b7d3d40732badec2cce909a67be65868d25c18ec4a91fdddb77b11761892268d228333f457'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fPdy2fCM/versions/zcgLCGJK/baubley-heart-canisters-1.19.2-2.1.0.jar'
+url = 'https://cdn.modrinth.com/data/fPdy2fCM/versions/mlJu40bw/baubley-heart-canisters-1.20.1-1.0.3.jar'
 
 [update.modrinth]
 mod-id = 'fPdy2fCM'
-version = 'zcgLCGJK'
+version = 'mlJu40bw'

@@ -1,6 +1,6 @@
 filename = 'CustomSkinLoader_ForgeV2-14.22.jar'
 name = 'CustomSkinLoader'
-side = 'client'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [
     '1.17.1',
@@ -21,11 +21,11 @@ x-prismlauncher-mc-versions = [
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '243173490322a72505c95f18ada170131a4e337595a18f7289bc52129ef8680646987c8f497c4c3f0f1795d5ccc593fcdc2d2f320abe8fcdfe63699a579e9111'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/idMHQ4n2/versions/6wilmXEK/CustomSkinLoader_ForgeV2-14.22.jar'
+hash = 'd102be0f714f3df9a071fdf5b50edb06222b2c38'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'idMHQ4n2'
-version = '6wilmXEK'
+[update.curseforge]
+file-id = 6092638
+project-id = 286924

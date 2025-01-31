@@ -1,0 +1,16 @@
+filename = 'chisel_chipped_integration-v1.1.3-1.20.1.jar'
+name = 'Chisel Chipped Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '44e7d5ff530797534020f4a973b891afdf565bf6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5661653
+project-id = 971089

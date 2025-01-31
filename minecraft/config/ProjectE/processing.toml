@@ -18,7 +18,21 @@
 		enabled = false
 		persistent = false
 
+	#Takes the different sherds into account for each decorated pot.
+	[processors.DecoratedPotProcessor]
+		enabled = true
+		persistent = true
+
+	#Calculates EMC value of trimmed armor.
+	[processors.ArmorTrimProcessor]
+		enabled = true
+		persistent = true
+
 	#Increases the EMC value of any Mekanism items by the value of the stored or installed contents.
 	[processors.MekanismContentsProcessor]
+		enabled = true
+
+	#(AppliedE) Calculates EMC value of Applied Energistics 2 inventory items such as cells and wireless terminals.
+	[processors.AE2InventoryItemProcessor]
 		enabled = true
 

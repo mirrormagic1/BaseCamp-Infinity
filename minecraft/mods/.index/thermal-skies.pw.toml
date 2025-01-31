@@ -1,0 +1,16 @@
+filename = 'thermalskies-1.0.0.jar'
+name = 'Thermal Skies'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9eb09f3c00a2bc3f663d777b6a49e31b5592aa4edfec3b55132b02a0c71f78538e850cd79b0b72cdde03f33aa5a2778e0d2717257224f9907f33b4a5739a71d6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uo8DBsoG/versions/h5w09clo/thermalskies-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'uo8DBsoG'
+version = 'h5w09clo'
