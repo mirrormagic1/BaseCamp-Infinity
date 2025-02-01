@@ -34,7 +34,7 @@ gamma:0.5
 renderDistance:12
 simulationDistance:32
 entityDistanceScaling:1.0
-guiScale:0
+guiScale:3
 particles:0
 maxFps:120
 graphicsMode:1
@@ -140,7 +140,7 @@ key_key.jei.showUses2:key.mouse.right
 key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
 key_key.jei.nextRecipePage:key.keyboard.page.down
 key_key.jei.bookmark:key.keyboard.a
-key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.toggleEditMode:key.keyboard.semicolon:CONTROL
 key_key.jei.nextPage:key.keyboard.unknown
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
@@ -279,7 +279,7 @@ key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
 key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.035211267605633804
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -1,20 +1,196 @@
 {
   "entries": [
     {
-      "item": "bhc:red_heart",
-      "emc": 0
+      "item": "create:wheat_flour",
+      "emc": 8
     },
     {
-      "item": "bhc:yellow_heart",
-      "emc": 0
+      "item": "create:polished_rose_quartz",
+      "emc": 768
     },
     {
-      "item": "bhc:green_heart",
-      "emc": 0
+      "item": "create:powdered_obsidian",
+      "emc": 32
     },
     {
-      "item": "bhc:blue_heart",
-      "emc": 0
+      "item": "create:sturdy_sheet",
+      "emc": 128
+    },
+    {
+      "item": "create:zinc_ingot",
+      "emc": 256
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 384
+    },
+    {
+      "item": "create:cinder_flour",
+      "emc": 1
+    },
+    {
+      "item": "create:iron_sheet",
+      "emc": 256
+    },
+    {
+      "item": "create:copper_sheet",
+      "emc": 128
+    },
+    {
+      "item": "create:brass_sheet",
+      "emc": 384
+    },
+    {
+      "item": "create:golden_sheet",
+      "emc": 2048
+    },
+    {
+      "item": "create:builders_tea",
+      "emc": 128
+    },
+    {
+      "item": "create:precision_mechanism",
+      "emc": 2528
+    },
+    {
+      "item": "create:blaze_cake_base",
+      "emc": 48
+    },
+    {
+      "item": "create:blaze_cake",
+      "emc": 333
+    },
+    {
+      "item": "create:chocolate_bucket",
+      "emc": 128
+    },
+    {
+      "item": "create:bar_of_chocolate",
+      "emc": 32
+    },
+    {
+      "item": "create:sweet_roll",
+      "emc": 32
+    },
+    {
+      "item": "create:chocolate_glazed_berries",
+      "emc": 40
+    },
+    {
+      "item": "create:honeyed_apple",
+      "emc": 176
+    },
+    {
+      "item": "create:experience_nugget",
+      "emc": 1
+    },
+    {
+      "item": "create:andesite_casing",
+      "emc": 120
+    },
+    {
+      "item": "create:brass_casing",
+      "emc": 416
+    },
+    {
+      "item": "create:copper_casing",
+      "emc": 160
+    },
+    {
+      "item": "create:railway_casing",
+      "emc": 544
+    },
+    {
+      "item": "create:honey_bucket",
+      "emc": 192
+    },
+    {
+      "item": "create:track",
+      "emc": 64
+    },
+    {
+      "item": "mekanism:pellet_antimatter",
+      "emc": 256000
+    },
+    {
+      "item": "mekanism:substrate",
+      "emc": 256
+    },
+    {
+      "item": "mekanism:pellet_plutonium",
+      "emc": 778
+    },
+    {
+      "item": "mekanism:pellet_polonium",
+      "emc": 1734
+    },
+    {
+      "item": "mekanism:reprocessed_fissile_fragment",
+      "emc": 176
+    },
+    {
+      "item": "mekanism:sawdust",
+      "emc": 8
+    },
+    {
+      "item": "mekanism:dust_lithium",
+      "emc": 128
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+      "emc": 64
+    },
+    {
+      "item": "ars_nouveau:whirlisprig_shards",
+      "emc": 1024
+    },
+    {
+      "item": "ars_nouveau:wilden_horn",
+      "emc": 96
+    },
+    {
+      "item": "ars_nouveau:wilden_spike",
+      "emc": 118
+    },
+    {
+      "item": "ars_nouveau:wilden_wing",
+      "emc": 72
+    },
+    {
+      "item": "ars_nouveau:source_gem",
+      "emc": 8192
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush",
+      "emc": 32
+    },
+    {
+      "item": "ars_nouveau:mendosteen_pod",
+      "emc": 256
+    },
+    {
+      "item": "ars_nouveau:bastion_pod",
+      "emc": 256
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod",
+      "emc": 256
+    },
+    {
+      "item": "ars_nouveau:bombegranate_pod",
+      "emc": 256
+    },
+    {
+      "item": "ars_nouveau:drygmy_shard",
+      "emc": 1024
+    },
+    {
+      "item": "ars_nouveau:wixie_shards",
+      "emc": 1024
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards",
+      "emc": 1024
     }
   ]
 }

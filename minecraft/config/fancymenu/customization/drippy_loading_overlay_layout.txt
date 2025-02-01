@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1738038306302
+  last_edited_time = 1738376639734
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = BaseCraft: Infinty - LOADING...
-  [loading_requirement_container_meta:52205df2-19f3-480d-bb57-7c9eab9dde6b-1738038128429] = [groups:][instances:]
+  [loading_requirement_container_meta:84ef9ae2-77d6-4cac-bf60-18d0dbe7ca66-1738376621872] = [groups:][instances:]
 }
 
 menu_background {
@@ -118,8 +118,8 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1080
   sticky_anchor = false
-  anchor_point = mid-left
-  x = 52
+  anchor_point = mid-centered
+  x = -196
   y = -50
   width = 100
   height = 101
