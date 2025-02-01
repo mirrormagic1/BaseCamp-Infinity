@@ -1,0 +1,11 @@
+{
+  "name": "Blue Matter",
+  "colors": [
+    "006FB8",
+    "8C98D7"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:blue_matter"
+  },
+  "inUltimateSingularity": false
+}

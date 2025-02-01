@@ -1,0 +1,11 @@
+{
+  "name": "Violet Matter",
+  "colors": [
+    "5900B8",
+    "726BC8"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:violet_matter"
+  },
+  "inUltimateSingularity": false
+}

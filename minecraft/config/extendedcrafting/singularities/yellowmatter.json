@@ -1,0 +1,11 @@
+{
+  "name": "Yellow Matter",
+  "colors": [
+    "FCDF00",
+    "ECED86"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:yellow_matter"
+  },
+  "inUltimateSingularity": false
+}

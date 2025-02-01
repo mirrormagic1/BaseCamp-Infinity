@@ -1,4 +1,20 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "bhc:red_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:yellow_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:green_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:blue_heart",
+      "emc": 0
+    }
+  ]
 }

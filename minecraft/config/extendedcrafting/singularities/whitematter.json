@@ -1,0 +1,11 @@
+{
+  "name": "White Matter",
+  "colors": [
+    "EDEDED",
+    "FCFCFC"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:white_matter"
+  },
+  "inUltimateSingularity": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Orange Matter",
+  "colors": [
+    "FC7E00",
+    "EDC786"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:orange_matter"
+  },
+  "inUltimateSingularity": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Purple Matter",
+  "colors": [
+    "7D00B8",
+    "BA57DC"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:purple_matter"
+  },
+  "inUltimateSingularity": false
+}

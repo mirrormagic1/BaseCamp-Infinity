@@ -1,0 +1,11 @@
+{
+  "name": "Final Star",
+  "colors": [
+    "F7E5EB",
+    "504C4E"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:final_star_shard"
+  },
+  "inUltimateSingularity": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pink Matter",
+  "colors": [
+    "E765B9",
+    "FB9BE3"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:pink_matter"
+  },
+  "inUltimateSingularity": false
+}

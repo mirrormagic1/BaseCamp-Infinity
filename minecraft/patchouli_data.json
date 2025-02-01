@@ -6,7 +6,8 @@
       "viewedEntries": [
         "extendedcrafting:crafting/tables",
         "extendedcrafting:crafting/ender_crafting",
-        "extendedcrafting:crafting/flux_crafting"
+        "extendedcrafting:crafting/flux_crafting",
+        "extendedcrafting:crafting/combination"
       ],
       "bookmarks": [],
       "completedManualQuests": []

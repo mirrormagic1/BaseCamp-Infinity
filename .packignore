@@ -1,8 +1,11 @@
 .git
 .gitattributes
 .gitignore
+minecraft/CustomSkinLoader
+minecraft/backups
 minecraft/libvlc.dll
 minecraft/libvlccore.dll
 minecraft/saves
 minecraft/screenshots
+minecraft/server-resource-packs
 minecraft/servers.dat_old

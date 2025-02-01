@@ -1,0 +1,11 @@
+{
+  "name": "Magenta Matter",
+  "colors": [
+    "B800A2",
+    "D286ED"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:magenta_matter"
+  },
+  "inUltimateSingularity": false
+}

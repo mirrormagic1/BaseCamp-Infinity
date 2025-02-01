@@ -1,0 +1,11 @@
+{
+  "name": "Red Matter",
+  "colors": [
+    "980707",
+    "FAE63F"
+  ],
+  "ingredient": {
+    "item": "projecte:red_matter"
+  },
+  "inUltimateSingularity": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Dark Matter",
+  "colors": [
+    "36173D",
+    "150919"
+  ],
+  "ingredient": {
+    "item": "projecte:dark_matter"
+  },
+  "inUltimateSingularity": false
+}
