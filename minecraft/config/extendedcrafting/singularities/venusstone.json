@@ -1,0 +1,12 @@
+{
+  "name": "Venus Stone",
+  "colors": [
+    "DDB068",
+    "E3B56B"
+  ],
+  "ingredient": {
+    "item": "ad_astra:venus_stone"
+  },
+  "materialCount": 1024,
+  "inUltimateSingularity": false
+}

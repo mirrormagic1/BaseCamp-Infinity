@@ -10,6 +10,8 @@
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
   "ae2:server_data": null,
+  "agricraft:crop_block": null,
+  "agricraft:soil": null,
   "bonsaitrees3:bonsaipot": null,
   "corpse:corpse": null,
   "dynamictrees:branch": null,
@@ -84,5 +86,7 @@
   "projecte:emc_provider": null,
   "projectexpansion:provider": null,
   "storagedrawers:main": null,
+  "tesseract:remove_default": null,
+  "tesseract:tesseract": null,
   "waystones:waystone": null
 }

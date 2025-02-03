@@ -1,0 +1,16 @@
+filename = 'TinkersLevellingAddon-1.20.1-1.4.1.jar'
+name = "Tinkers' Levelling Addon"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7df3072ef57021349cf6e9c0ee4df3d662b59b3dc2a4e2fac1b5546bf933f9a387d909601f5d77d1e705ca69a66ac07a1977287d718bd1ea4de98f482e2e7799'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OOUmRYso/versions/ymurp0PV/TinkersLevellingAddon-1.20.1-1.4.1.jar'
+
+[update.modrinth]
+mod-id = 'OOUmRYso'
+version = 'ymurp0PV'

@@ -1,0 +1,16 @@
+filename = 'matmores-1.0-SNAPSHOT(2).jar'
+name = 'Mineable/Minable AllTheModium Ores'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b090f4b1b47a8e912c92cc34f4e36e65f779f3b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6062359
+project-id = 1173606

@@ -43,8 +43,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("ae1b1d37-430f-41c0-b89f-d28
 	<item:projectexpansion:purple_collector>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glass_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:violet_matter>, <item:allthecompressed:glass_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:violet_matter>, <item:projectexpansion:violet_matter>, <item:allthecompressed:glass_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:violet_matter>, <item:projectexpansion:violet_matter>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:violet_matter>, <item:projectexpansion:violet_matter>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:violet_matter>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>
 ], 512000);
 //mk8 collector
-craftingTable.remove(<item:projectexpansion:violet_collector>);
-
+craftingTable.remove(<item:projectexpansion:blue_collector>);
+mods.extendedcrafting.CombinationCrafting.addRecipe("c7f0f3c4-a279-4523-a79c-4e130587c01b", <item:projectexpansion:blue_collector>, 1024000000, [
+	<item:projectexpansion:violet_collector>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glass_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:blue_matter>, <item:allthecompressed:glass_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:blue_matter>, <item:projectexpansion:blue_matter>, <item:allthecompressed:glass_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:blue_matter>, <item:projectexpansion:blue_matter>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:blue_matter>, <item:projectexpansion:blue_matter>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:projectexpansion:blue_matter>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>, <item:allthecompressed:glowstone_5x>
+], 1024000);
 //mk9 collector
 
 

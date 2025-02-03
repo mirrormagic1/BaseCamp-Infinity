@@ -1,0 +1,12 @@
+{
+  "name": "Mars Stone",
+  "colors": [
+    "BF7950",
+    "CB915F"
+  ],
+  "ingredient": {
+    "item": "ad_astra:mars_stone"
+  },
+  "materialCount": 1024,
+  "inUltimateSingularity": false
+}

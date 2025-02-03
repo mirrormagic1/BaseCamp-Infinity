@@ -1,0 +1,12 @@
+{
+  "name": "Moon Stone",
+  "colors": [
+    "444444",
+    "8c8c8c"
+  ],
+  "ingredient": {
+    "item": "ad_astra:moon_stone"
+  },
+  "materialCount": 1024,
+  "inUltimateSingularity": false
+}
