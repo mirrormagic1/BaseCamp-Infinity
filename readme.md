@@ -1,12 +1,18 @@
-<html><body><ul>
+<html>
+	<h1>Basecamp: Infinty</h1>
+	<h2>A kitchen sink questing mod pack.</h2>
+	<body><ul>
+	<li>.connector</li>
 	<li><a href="https://modrinth.com/mod/zV5r3pPn">3d-Skin-Layers</a> by tr7zw</li>
 	<li><a href="https://modrinth.com/mod/pNabrMMw">AE2WTLib</a> by mari_023, Ridanisaurus, DomamaN202</li>
 	<li><a href="https://www.curseforge.com/projects/912788">AchievementOptimizer</a> by Big_Energy</li>
 	<li><a href="https://www.curseforge.com/projects/635042">Ad Astra</a> by Alex Nijjar</li>
 	<li><a href="https://www.curseforge.com/projects/431725">Advanced Peripherals</a> by Srendi</li>
+	<li><a href="https://www.curseforge.com/projects/225635">AgriCraft</a> by InfinityRaider, Ketheroth</li>
 	<li><a href="https://www.curseforge.com/projects/514045">AllTheCompressed</a> by Pdiddy973</li>
 	<li><a href="https://www.curseforge.com/projects/405593">AllTheOres</a> by thevortex, whatthedrunk</li>
 	<li><a href="https://www.curseforge.com/projects/364466">Allthemodium</a> by thevortex, whatthedrunk</li>
+	<li><a href="https://www.curseforge.com/projects/254284">AmbientSounds</a> by CreativeMD</li>
 	<li><a href="https://www.curseforge.com/projects/248787">AppleSkin</a> by squeek</li>
 	<li><a href="https://www.curseforge.com/projects/223794">Applied Energistics 2</a> by TeamAppliedEnergistics</li>
 	<li><a href="https://www.curseforge.com/projects/574300">Applied Mekanistics</a> by ramidzkh</li>
@@ -17,6 +23,7 @@
 	<li><a href="https://modrinth.com/mod/lL2MtE37">Bad Wither No Cookie Reloaded</a> by Kreezxil, Eleksploded</li>
 	<li><a href="https://www.curseforge.com/projects/531761">Balm</a> by BlayTheNinth</li>
 	<li><a href="https://modrinth.com/mod/fPdy2fCM">Baubley Heart Canisters</a> by Traverse_Joe</li>
+	<li><a href="https://modrinth.com/mod/kF6ZFH7j">Ben's Sharks</a> by benndevs</li>
 	<li><a href="https://modrinth.com/mod/KJhXPbHQ">Better Compatibility Checker</a> by Gaz</li>
 	<li><a href="https://modrinth.com/mod/8shC1gFX">BetterF3</a> by TreyRuffy and cominixo</li>
 	<li><a href="https://www.curseforge.com/projects/278993">Bonsai Trees 3</a> by Davenonymous</li>
@@ -31,6 +38,7 @@
 	<li><a href="https://www.curseforge.com/projects/456956">Chipped</a> by Alex Nijjar, Grimbop, Kekie6, ThatGravyBoat</li>
 	<li><a href="https://www.curseforge.com/projects/971089">Chisel Chipped Integration</a> by zSemper, Chisel Developer</li>
 	<li><a href="https://www.curseforge.com/projects/485681">Chunky</a> by pop4959</li>
+	<li><a href="https://modrinth.com/mod/jJfV67b1">Citadel</a> by Alexthe666</li>
 	<li><a href="https://www.curseforge.com/projects/807792">Clockwork: Create x Valkyrien Skies</a></li>
 	<li><a href="https://modrinth.com/mod/9s6osm5g">Cloth Config v10 API</a> by shedaniel</li>
 	<li><a href="https://www.curseforge.com/projects/256717">Clumps</a> by Jaredlll08</li>
@@ -55,12 +63,15 @@
 	<li><a href="https://www.curseforge.com/projects/905040">Create: Bells &amp; Whistles</a> by Alexander Weimer</li>
 	<li><a href="https://www.curseforge.com/projects/820977">Create: Central Kitchen</a> by LimonBlaze, MarbleGate and Etherwood</li>
 	<li><a href="https://www.curseforge.com/projects/968398">Create: Copycats+</a> by Lysine, Bennyboy1695, Redcat_XVIII</li>
+	<li><a href="https://modrinth.com/mod/FTeXqI9v">Create: New Age</a> by Antarctic Gardens</li>
 	<li><a href="https://www.curseforge.com/projects/688231">Create: Steam 'n' Rails</a> by The Railways Team</li>
+	<li><a href="https://www.curseforge.com/projects/257814">CreativeCore</a> by CreativeMD</li>
 	<li><a href="https://www.curseforge.com/projects/272335">Cucumber Library</a> by BlakeBr0</li>
 	<li><a href="https://www.curseforge.com/projects/326652">Cupboard utilities</a> by Someaddon</li>
 	<li><a href="https://www.curseforge.com/projects/309927">Curios API</a> by C4</li>
 	<li><a href="https://www.curseforge.com/projects/621377">Curious Lanterns</a> by Psilocke</li>
 	<li><a href="https://www.curseforge.com/projects/286924">CustomSkinLoader</a> by xfl03, JLChnToZ, ZekerZhayard</li>
+	<li><a href="https://www.curseforge.com/projects/335673">Dank Storage</a> by Tfarecnim</li>
 	<li><a href="https://www.curseforge.com/projects/377281">DarkPaintings</a> by Darkhax</li>
 	<li><a href="https://modrinth.com/mod/1pigpywM">Dense Ores</a> by NewJumper</li>
 	<li><a href="https://modrinth.com/mod/IKARgflD">Diagonal Fences</a> by Fuzs, XFactHD</li>
@@ -73,8 +84,12 @@
 	<li>Drippy Loading Screen by Keksuccino</li>
 	<li><a href="https://www.curseforge.com/projects/252818">Dynamic Trees</a> by Ferreusveritas</li>
 	<li><a href="https://www.curseforge.com/projects/478155">Dynamic Trees Plus</a> by Ferreusveritas, Max Hyper/supermassimo, Harley O'Connor</li>
+	<li><a href="https://modrinth.com/mod/o8eM9Cnp">Dynamic Trees for Terralith</a> by DJS, Max Hyper</li>
+	<li><a href="https://www.curseforge.com/projects/250832">Elevator Mod</a> by VsnGamer</li>
 	<li><a href="https://www.curseforge.com/projects/908741">Embeddium</a> by embeddedt</li>
 	<li><a href="https://www.curseforge.com/projects/931925">Embeddium++</a> by SrRapero720</li>
+	<li><a href="https://modrinth.com/mod/4I1XuqiY">Entity Model Features</a> by Traben</li>
+	<li><a href="https://modrinth.com/mod/BVzZfTc1">Entity Texture Features</a> by Traben</li>
 	<li><a href="https://www.curseforge.com/projects/631342">Erroring Entity Remover Reforged</a> by AzureDoom, The_Fireplace</li>
 	<li><a href="https://www.curseforge.com/projects/915902">EuphoriaPatcher</a> by SpacEagle17, isuewo</li>
 	<li><a href="https://www.curseforge.com/projects/926083">Experimental Settings Disabler</a> by Eruannie_9</li>
@@ -90,12 +105,14 @@
 	<li>FancyMenu by Keksuccino</li>
 	<li><a href="https://www.curseforge.com/projects/398521">Farmer's Delight</a> by vectorwing</li>
 	<li><a href="https://www.curseforge.com/projects/429235">Ferrite Core</a> by malte0811</li>
+	<li><a href="https://www.curseforge.com/projects/889079">Forgified Fabric API</a> by FabricMC, Sinytra</li>
 	<li><a href="https://www.curseforge.com/projects/549225">Framework</a> by MrCrayfish</li>
 	<li><a href="https://www.curseforge.com/projects/602059">Friends &amp; Foes</a> by Faboslav</li>
 	<li><a href="https://www.curseforge.com/projects/854949">Fusion</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/388172">GeckoLib 4</a> by Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin</li>
 	<li><a href="https://modrinth.com/mod/s3dmwKy5">GlitchCore</a> by Adubbz</li>
 	<li><a href="https://www.curseforge.com/projects/238911">Grappling Hook Mod</a> by Yyon, Nyfaria, and Mayesnake</li>
+	<li><a href="https://www.curseforge.com/projects/264231">Ice and Fire</a> by Alexthe666, TheBv</li>
 	<li><a href="https://www.curseforge.com/projects/520110">Iceberg</a> by Grend</li>
 	<li><a href="https://www.curseforge.com/projects/266515">Industrial Foregoing</a> by Buuz135</li>
 	<li><a href="https://www.curseforge.com/projects/498794">Iron Chests: Restocked</a> by Dev and Upgrade Textures - ThatGravyBoat, All Other Textures - Kekie</li>
@@ -116,6 +133,7 @@
 	<li><a href="https://www.curseforge.com/projects/240630">Just Enough Resources</a> by way2muchnoise</li>
 	<li><a href="https://modrinth.com/mod/J81TRJWm">Konkrete</a> by Keksuccino</li>
 	<li><a href="https://modrinth.com/mod/ordsPcFz">Kotlin for Forge</a></li>
+	<li><a href="https://modrinth.com/mod/S3D3QF0M">Leawind's Third Person</a> by Leawind</li>
 	<li><a href="https://www.curseforge.com/projects/532127">Legendary Tooltips</a> by Grend</li>
 	<li><a href="https://www.curseforge.com/projects/357557">Libnonymous</a> by Davenonymous</li>
 	<li><a href="https://www.curseforge.com/projects/361276">Lootr</a> by Noobanidus</li>
@@ -129,6 +147,7 @@
 	<li><a href="https://www.curseforge.com/projects/352039">Macaw's Roofs</a> by Sketch Macaw &amp; Sketch Peachy</li>
 	<li><a href="https://www.curseforge.com/projects/400933">Macaw's Trapdoors</a> by Sketch Macaw &amp; Peachy Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/363569">Macaw's Windows</a> by Sketch Macaw &amp; Peachy Macaw</li>
+	<li><a href="https://modrinth.com/mod/Cg6Uc79H">Mantle</a> by Slime Knights</li>
 	<li><a href="https://modrinth.com/mod/1Zu0uTEE">McJtyLib</a> by McJty</li>
 	<li><a href="https://www.curseforge.com/projects/268560">Mekanism</a> by Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd</li>
 	<li><a href="https://www.curseforge.com/projects/1119874">Mekanism Covers</a> by D4rkness_King</li>
@@ -138,6 +157,7 @@
 	<li><a href="https://www.curseforge.com/projects/268567">Mekanism: Tools</a> by Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd</li>
 	<li><a href="https://www.curseforge.com/projects/929829">Mekanism: Weapons</a> by oMeranha</li>
 	<li><a href="https://www.curseforge.com/projects/938643">Melody</a> by Keksuccino</li>
+	<li><a href="https://www.curseforge.com/projects/1173606">Mineable/Minable AllTheModium Ores</a></li>
 	<li><a href="https://www.curseforge.com/projects/790626">ModernFix</a> by embeddedt</li>
 	<li><a href="https://www.curseforge.com/projects/511965">More Mekanism Processing</a> by gisellevonbingen</li>
 	<li><a href="https://www.curseforge.com/projects/627986">Naturalist</a> by Starfish Studios</li>
@@ -175,6 +195,7 @@
 	<li><a href="https://modrinth.com/mod/N4D9AicU">RFToolsDimensions</a> by McJty</li>
 	<li><a href="https://modrinth.com/mod/7n3HbHSE">RFToolsUtility</a> by McJty</li>
 	<li><a href="https://www.curseforge.com/projects/602199">Radiant Gear</a> by Illusive Soulworks</li>
+	<li><a href="https://www.curseforge.com/projects/936849">Rainbow Reef</a> by TheValiantSquidward, OmayPaty</li>
 	<li><a href="https://www.curseforge.com/projects/623969">Re-Avaritia-forged</a> by cnlimiter, Asek3, MikhailTapio</li>
 	<li><a href="https://www.curseforge.com/projects/558998">Rechiseled</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/987534">Rechiseled: AE2</a> by Christofmeg</li>
@@ -186,13 +207,17 @@
 	<li><a href="https://modrinth.com/mod/VNjUn3NA">SeasonHUD</a> by IanAnderson</li>
 	<li><a href="https://modrinth.com/mod/e0bNACJD">Serene Seasons</a> by Adubbz, Forstride</li>
 	<li><a href="https://modrinth.com/mod/1LtXIG7a">Serene Seasons Fix</a> by Or_OS</li>
+	<li><a href="https://www.curseforge.com/projects/890127">Sinytra Connector</a></li>
 	<li><a href="https://www.curseforge.com/projects/582327">Smoothchunk mod</a> by Someaddons</li>
 	<li><a href="https://www.curseforge.com/projects/223852">Storage Drawers</a> by Texelsaur</li>
 	<li><a href="https://www.curseforge.com/projects/438332">SuperMartijn642's Config Library</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/454372">SuperMartijn642's Core Lib</a> by SuperMartijn642</li>
 	<li><a href="https://modrinth.com/mod/nqVt6aES">TARDIS Refined</a> by CommandrMoose / River, Jeryn99, Magic Man, ILikePandas, Jacob K, 50ap5ud5</li>
+	<li><a href="https://modrinth.com/mod/DhBtjMiv">TConJEI</a> by paypur</li>
 	<li><a href="https://www.curseforge.com/projects/689273">Team ProjectE</a> by 6LeoY</li>
 	<li><a href="https://www.curseforge.com/projects/686836">Tectonic</a> by Apollo</li>
+	<li><a href="https://modrinth.com/mod/8oi3bsk5">Terralith</a> by Stardust Labs</li>
+	<li><a href="https://www.curseforge.com/projects/379232">Tesseract</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/895787">Thermal And Space</a> by Mrthomas20121</li>
 	<li><a href="https://www.curseforge.com/projects/271835">Thermal Cultivation</a> by King Lemming</li>
 	<li><a href="https://www.curseforge.com/projects/227443">Thermal Dynamics</a> by King Lemming, covers1624</li>
@@ -202,16 +227,32 @@
 	<li><a href="https://www.curseforge.com/projects/626708">Thermal Integration</a> by King Lemming</li>
 	<li><a href="https://www.curseforge.com/projects/406959">Thermal Locomotion</a> by King Lemming</li>
 	<li><a href="https://modrinth.com/mod/uo8DBsoG">Thermal Skies</a> by Acrogenous</li>
+	<li><a href="https://modrinth.com/mod/rxIIYO6c">Tinkers' Construct</a> by Slime Knights</li>
+	<li><a href="https://modrinth.com/mod/OOUmRYso">Tinkers' Levelling Addon</a> by Pyre540</li>
 	<li><a href="https://www.curseforge.com/projects/287342">Titanium</a> by TheCodedOne, Buuz135</li>
 	<li><a href="https://www.curseforge.com/projects/271740">Toast Control</a> by Shadows_of_Fire</li>
 	<li><a href="https://www.curseforge.com/projects/321117">Traveler's Backpack</a> by Tiviacz1337</li>
 	<li><a href="https://www.curseforge.com/projects/1056812">UniLib</a> by CDAGaming</li>
+	<li><a href="https://www.curseforge.com/projects/457252">Untamed Wilds</a> by RayTrace082</li>
 	<li><a href="https://modrinth.com/mod/EO8aSHxh">VS Eureka Mod</a></li>
+	<li><a href="https://www.curseforge.com/projects/1012074">Valkyrien Pirates Forge</a></li>
 	<li><a href="https://modrinth.com/mod/V5ujR2yw">Valkyrien Skies 2</a></li>
 	<li><a href="https://www.curseforge.com/projects/245755">Waystones</a> by BlayTheNinth</li>
 	<li><a href="https://www.curseforge.com/projects/481655">Wildfire's Female Gender Mod</a> by WildfireRomeo</li>
+	<li><a href="https://www.curseforge.com/projects/225608">WorldEdit</a> by EngineHub</li>
 	<li><a href="https://www.curseforge.com/projects/577807">YDM's Scorpions</a> by YourDailyModder</li>
 	<li><a href="https://www.curseforge.com/projects/608235">YDM's Weapon Master</a> by YourDailyModder</li>
+	<li><a href="https://modrinth.com/mod/Ua7DFN59">YUNG's API</a> by YUNGNICKYOUNG</li>
+	<li><a href="https://www.curseforge.com/projects/631016">YUNG's Better Desert Temples</a> by YUNGNICKYOUNG, Tera</li>
+	<li><a href="https://www.curseforge.com/projects/510089">YUNG's Better Dungeons</a> by YUNGNICKYOUNG, Acarii</li>
+	<li><a href="https://modrinth.com/mod/2BwBOmBQ">YUNG's Better End Island</a> by YUNGNICKYOUNG, Acarii</li>
+	<li><a href="https://www.curseforge.com/projects/897669">YUNG's Better Jungle Temples</a> by YUNGNICKYOUNG, Tera</li>
+	<li><a href="https://www.curseforge.com/projects/389665">YUNG's Better Mineshafts</a> by YUNGNICKYOUNG</li>
+	<li><a href="https://www.curseforge.com/projects/817651">YUNG's Better Nether Fortresses</a> by YUNGNICKYOUNG, Acarii</li>
+	<li><a href="https://www.curseforge.com/projects/689238">YUNG's Better Ocean Monuments</a> by YUNGNICKYOUNG, Tera</li>
+	<li><a href="https://www.curseforge.com/projects/465575">YUNG's Better Strongholds</a> by YUNGNICKYOUNG, Acarii</li>
+	<li><a href="https://www.curseforge.com/projects/631401">YUNG's Better Witch Huts</a> by YUNGNICKYOUNG, Acarii</li>
+	<li><a href="https://modrinth.com/mod/vuNeeDyl">aleki's Nifty Ships</a> by alekiponi</li>
 	<li><a href="https://www.curseforge.com/projects/1138130">corpsecurioscompat</a></li>
 	<li><a href="https://modrinth.com/mod/W6ROj0Hl">iChunUtil</a> by iChun</li>
 </ul></body></html>
