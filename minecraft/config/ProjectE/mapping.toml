@@ -271,3 +271,7 @@
 		#(AppliedE) Maps Applied Energistics 2 charger recipes.
 		enabled = true
 
+	[CraftingMapper.IceAndFireDragonForgeMapper]
+		#Recipe mapper for Ice and Fire DragonForge recipes
+		enabled = true
+
