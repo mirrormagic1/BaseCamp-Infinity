@@ -3,6 +3,7 @@
 .gitignore
 minecraft/CustomSkinLoader
 minecraft/backups
+minecraft/journeymap
 minecraft/libvlc.dll
 minecraft/libvlccore.dll
 minecraft/saves
