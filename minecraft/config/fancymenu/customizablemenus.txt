@@ -15,3 +15,6 @@ net.minecraft.client.gui.screens.inventory.InventoryScreen {
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
+com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
+}
+

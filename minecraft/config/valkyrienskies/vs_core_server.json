@@ -8,7 +8,7 @@
     "terrainDeletionThreadPriority" : 4
   },
   "udpPort" : 25565,
-  "enableUdp" : false,
+  "enableUdp" : true,
   "shipLoadDistance" : 128.0,
   "shipUnloadDistance" : 196.0,
   "physics" : {

@@ -1,0 +1,16 @@
+filename = 'ValkyrienPirates-1.4.2-forge.jar'
+name = 'Valkyrien Pirates'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '60bf18a602e8c7acd96ccb39c89c59facca649e5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6081263
+project-id = 1012074
