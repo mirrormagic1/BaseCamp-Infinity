@@ -1,0 +1,16 @@
+filename = 'Stargate Journey-1.20.1-0.6.33 Hotfix.jar'
+name = 'Stargate Journey'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '56651760087e18087daa71bef833a0911deacfe3dd588eeb6e606e6e4bc585584b9ae799562c737f0c9c89bde25fd204921b1a91f648cfcc3f4e1a0a045306ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qlc8dxM6/versions/IpcucL5c/Stargate Journey-1.20.1-0.6.33 Hotfix.jar'
+
+[update.modrinth]
+mod-id = 'qlc8dxM6'
+version = 'IpcucL5c'
