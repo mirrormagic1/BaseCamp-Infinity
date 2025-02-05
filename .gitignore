@@ -25,3 +25,4 @@ minecraft/config/ironchests/defaults.properties
 minecraft/banned-ips.json
 minecraft/banned-players.json
 minecraft/ops.json
+minecraft/usernamecache.json
