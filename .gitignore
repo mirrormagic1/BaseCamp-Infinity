@@ -16,3 +16,9 @@ minecraft/modernfix/structureCacheV1
 minecraft/mods/worldedit-mod-7.2.15.jar
 minecraft/usercache.json
 
+/minecraft/world
+/minecraft/libraries
+minecraft/banned-ips.json
+minecraft/banned-players.json
+minecraft/eula.txt
+minecraft/ops.json
