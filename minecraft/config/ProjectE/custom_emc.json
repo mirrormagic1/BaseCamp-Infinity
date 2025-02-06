@@ -191,6 +191,10 @@
     {
       "item": "ars_nouveau:starbuncle_shards",
       "emc": 1024
+    },
+    {
+      "item": "extendedcrafting:flux_star",
+      "emc": 147456
     }
   ]
 }
