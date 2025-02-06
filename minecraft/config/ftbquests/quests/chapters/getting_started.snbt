@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "easy"
+	filename: "getting_started"
 	group: ""
-	id: "09988FB1DC949FA9"
+	id: "393A1435FD37B7BF"
 	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
-	title: "Easy"
+	title: "Getting Started"
 }

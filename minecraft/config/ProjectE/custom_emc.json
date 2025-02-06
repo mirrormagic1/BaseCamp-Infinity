@@ -193,8 +193,20 @@
       "emc": 1024
     },
     {
-      "item": "extendedcrafting:flux_star",
-      "emc": 147456
+      "item": "allthemodium:allthemodium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "moremekanismprocessing:draconium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:draconium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:chaos_shard",
+      "emc": 0
     }
   ]
 }

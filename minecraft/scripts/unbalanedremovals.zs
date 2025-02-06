@@ -21,6 +21,7 @@ craftingTable.remove(<item:allthemodium:allthemodium_shovel>);
 craftingTable.remove(<item:allthemodium:allthemodium_axe>);
 craftingTable.remove(<item:allthemodium:allthemodium_pickaxe>);
 craftingTable.remove(<item:allthemodium:allthemodium_sword>);
+craftingTable.remove(<item:projectexpansion:matter_upgrader>);
 smithing.remove(<item:allthemodium:unobtainium_hoe>);
 smithing.remove(<item:allthemodium:unobtainium_shovel>);
 smithing.remove(<item:allthemodium:unobtainium_axe>);
