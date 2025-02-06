@@ -2,7 +2,6 @@
 	<h1>Basecamp: Infinty</h1>
 	<h2>A kitchen sink questing mod pack.</h2>
 	<body><ul>
-	<li>.connector</li>
 	<li><a href="https://modrinth.com/mod/zV5r3pPn">3d-Skin-Layers</a> by tr7zw</li>
 	<li><a href="https://modrinth.com/mod/pNabrMMw">AE2WTLib</a> by mari_023, Ridanisaurus, DomamaN202</li>
 	<li><a href="https://www.curseforge.com/projects/912788">AchievementOptimizer</a> by Big_Energy</li>
@@ -19,7 +18,6 @@
 	<li><a href="https://www.curseforge.com/projects/1009940">AppliedE</a> by 90</li>
 	<li><a href="https://www.curseforge.com/projects/419699">Architectury</a> by shedaniel</li>
 	<li><a href="https://www.curseforge.com/projects/841890">Athena</a> by ThatGravyBoat</li>
-	<li><a href="https://www.curseforge.com/projects/891434">Avaritia</a> by Remby</li>
 	<li><a href="https://modrinth.com/mod/lL2MtE37">Bad Wither No Cookie Reloaded</a> by Kreezxil, Eleksploded</li>
 	<li><a href="https://www.curseforge.com/projects/531761">Balm</a> by BlayTheNinth</li>
 	<li><a href="https://modrinth.com/mod/fPdy2fCM">Baubley Heart Canisters</a> by Traverse_Joe</li>
@@ -65,6 +63,7 @@
 	<li><a href="https://www.curseforge.com/projects/968398">Create: Copycats+</a> by Lysine, Bennyboy1695, Redcat_XVIII</li>
 	<li><a href="https://modrinth.com/mod/FTeXqI9v">Create: New Age</a> by Antarctic Gardens</li>
 	<li><a href="https://www.curseforge.com/projects/688231">Create: Steam 'n' Rails</a> by The Railways Team</li>
+	<li><a href="https://modrinth.com/mod/vEila6nl">CreateTweaker</a> by Jaredlll08</li>
 	<li><a href="https://www.curseforge.com/projects/257814">CreativeCore</a> by CreativeMD</li>
 	<li><a href="https://www.curseforge.com/projects/272335">Cucumber Library</a> by BlakeBr0</li>
 	<li><a href="https://www.curseforge.com/projects/326652">Cupboard utilities</a> by Someaddon</li>
@@ -111,10 +110,10 @@
 	<li><a href="https://www.curseforge.com/projects/854949">Fusion</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/388172">GeckoLib 4</a> by Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin</li>
 	<li><a href="https://modrinth.com/mod/s3dmwKy5">GlitchCore</a> by Adubbz</li>
-	<li><a href="https://www.curseforge.com/projects/238911">Grappling Hook Mod</a> by Yyon, Nyfaria, and Mayesnake</li>
 	<li><a href="https://www.curseforge.com/projects/264231">Ice and Fire</a> by Alexthe666, TheBv</li>
 	<li><a href="https://www.curseforge.com/projects/520110">Iceberg</a> by Grend</li>
 	<li><a href="https://www.curseforge.com/projects/266515">Industrial Foregoing</a> by Buuz135</li>
+	<li><a href="https://www.curseforge.com/projects/976858">Inventory Tweaks Refoxed</a> by Yuitakaa(Maintainer), StanleyMines(Contributor), Landmaster (Original Author)</li>
 	<li><a href="https://www.curseforge.com/projects/498794">Iron Chests: Restocked</a> by Dev and Upgrade Textures - ThatGravyBoat, All Other Textures - Kekie</li>
 	<li><a href="https://www.curseforge.com/projects/881026">Iron Ender Chests</a> by Iron431</li>
 	<li><a href="https://www.curseforge.com/projects/237664">Iron Furnaces</a> by Qelifern (pizzaatime), XenoMustache</li>
@@ -197,6 +196,7 @@
 	<li><a href="https://www.curseforge.com/projects/602199">Radiant Gear</a> by Illusive Soulworks</li>
 	<li><a href="https://www.curseforge.com/projects/936849">Rainbow Reef</a> by TheValiantSquidward, OmayPaty</li>
 	<li><a href="https://www.curseforge.com/projects/623969">Re-Avaritia-forged</a> by cnlimiter, Asek3, MikhailTapio</li>
+	<li><a href="https://modrinth.com/mod/967kkKiF">ReHooked</a> by omergunr100</li>
 	<li><a href="https://www.curseforge.com/projects/558998">Rechiseled</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/987534">Rechiseled: AE2</a> by Christofmeg</li>
 	<li><a href="https://www.curseforge.com/projects/1007578">Rechiseled: Chipped</a> by iwolfking</li>
@@ -209,6 +209,9 @@
 	<li><a href="https://modrinth.com/mod/1LtXIG7a">Serene Seasons Fix</a> by Or_OS</li>
 	<li><a href="https://www.curseforge.com/projects/890127">Sinytra Connector</a></li>
 	<li><a href="https://www.curseforge.com/projects/582327">Smoothchunk mod</a> by Someaddons</li>
+	<li><a href="https://www.curseforge.com/projects/551736">Sodium Dynamic Lights</a> by toni, LambdAurora</li>
+	<li><a href="https://www.curseforge.com/projects/1103431">Sodium Options API</a> by toni</li>
+	<li><a href="https://modrinth.com/mod/Iairjv0A">Stellar View</a> by Woldericz_Junior</li>
 	<li><a href="https://www.curseforge.com/projects/223852">Storage Drawers</a> by Texelsaur</li>
 	<li><a href="https://www.curseforge.com/projects/438332">SuperMartijn642's Config Library</a> by SuperMartijn642</li>
 	<li><a href="https://www.curseforge.com/projects/454372">SuperMartijn642's Core Lib</a> by SuperMartijn642</li>
@@ -231,6 +234,7 @@
 	<li><a href="https://modrinth.com/mod/OOUmRYso">Tinkers' Levelling Addon</a> by Pyre540</li>
 	<li><a href="https://www.curseforge.com/projects/287342">Titanium</a> by TheCodedOne, Buuz135</li>
 	<li><a href="https://www.curseforge.com/projects/271740">Toast Control</a> by Shadows_of_Fire</li>
+	<li><a href="https://www.curseforge.com/projects/1057662">Trackwork Mod</a> by Endalion</li>
 	<li><a href="https://www.curseforge.com/projects/321117">Traveler's Backpack</a> by Tiviacz1337</li>
 	<li><a href="https://www.curseforge.com/projects/1056812">UniLib</a> by CDAGaming</li>
 	<li><a href="https://www.curseforge.com/projects/457252">Untamed Wilds</a> by RayTrace082</li>
@@ -239,6 +243,7 @@
 	<li><a href="https://modrinth.com/mod/V5ujR2yw">Valkyrien Skies 2</a></li>
 	<li><a href="https://www.curseforge.com/projects/245755">Waystones</a> by BlayTheNinth</li>
 	<li><a href="https://www.curseforge.com/projects/481655">Wildfire's Female Gender Mod</a> by WildfireRomeo</li>
+	<li><a href="https://modrinth.com/mod/2AIZDfYo">World Host</a> by Gaming32</li>
 	<li><a href="https://www.curseforge.com/projects/225608">WorldEdit</a> by EngineHub</li>
 	<li><a href="https://www.curseforge.com/projects/577807">YDM's Scorpions</a> by YourDailyModder</li>
 	<li><a href="https://www.curseforge.com/projects/608235">YDM's Weapon Master</a> by YourDailyModder</li>
