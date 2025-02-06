@@ -14,7 +14,7 @@ minecraft/modernfix/structureCacheV1
 /minecraft/backups
 /minecraft/config/worldedit
 minecraft/usercache.json
-
+minecraft/.world-host-cache/
 /minecraft/world
 /minecraft/libraries
 minecraft/banned-ips.json
