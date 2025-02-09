@@ -6,6 +6,139 @@
 	id: "393A1435FD37B7BF"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+			id: "6B8EE37114FCB1A9"
+			rewards: [
+				{
+					id: "4F809EC5F591D7AC"
+					item: {
+						Count: 1
+						id: "tconstruct:hand_axe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:ancient_hide"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 1
+									name: "tconstruct:fortune"
+								}
+								{
+									level: 1
+									name: "tconstruct:stripping"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 6.0f
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:durability": 60.0f
+								"tconstruct:mining_speed": 2.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1772FE7C68605933"
+					item: {
+						Count: 1
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "tinkerslevellingaddon:improvable"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Welcome To Basecraft: Infinity, where you can go to infinity and byond! Click this check mark to get started!"
+			tasks: [{
+				id: "40FD5BC330D4A656"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			title: "Welcome!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B8EE37114FCB1A9"]
+			id: "328C5603D8D6018C"
+			min_required_tasks: 1
+			rewards: [{
+				count: 16
+				id: "5BCA9F4A644A39E7"
+				item: "vs_eureka:floater"
+				type: "item"
+			}]
+			subtitle: "Build a ship to survive the waters!"
+			tasks: [
+				{
+					id: "7B0D4D701733B2AF"
+					item: "vs_eureka:oak_ship_helm"
+					type: "item"
+				}
+				{
+					id: "3166D82CCD2CB8DA"
+					item: "vs_eureka:spruce_ship_helm"
+					type: "item"
+				}
+				{
+					id: "5E629735B7C17FCF"
+					item: "vs_eureka:birch_ship_helm"
+					type: "item"
+				}
+				{
+					id: "1DE419D1082DA667"
+					item: "vs_eureka:jungle_ship_helm"
+					type: "item"
+				}
+				{
+					id: "382C0242C3A26F14"
+					item: "vs_eureka:acacia_ship_helm"
+					type: "item"
+				}
+				{
+					id: "520BB43944615CFC"
+					item: "vs_eureka:dark_oak_ship_helm"
+					type: "item"
+				}
+			]
+			title: "Build Yourself your Ship!"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "27B3BCB41B6430DB"
+			tasks: [{
+				elapsedTime: 60L
+				id: "1A8F82F939D5B7A7"
+				title: "FREE!"
+				type: "questsadditions:time"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+	]
 	title: "Getting Started"
 }
