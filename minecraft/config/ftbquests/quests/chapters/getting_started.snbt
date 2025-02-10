@@ -130,8 +130,13 @@
 		}
 		{
 			id: "27B3BCB41B6430DB"
+			rewards: [{
+				id: "36D29AF175760C1F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
-				elapsedTime: 60L
+				elapsedTime: 86400L
 				id: "1A8F82F939D5B7A7"
 				title: "FREE!"
 				type: "questsadditions:time"
